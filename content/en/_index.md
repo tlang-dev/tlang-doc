@@ -1,6 +1,6 @@
 ---
-title: Z Themes
-description: Hugo zzo, zdoc theme documentation home page
+title: TLang
+description: TLang, the template language
 date: 2020-01-26T04:15:05+09:00
 draft: false
 # updatesBanner: "Banner - &nbsp; [Hugo ZDoc theme](https://github.com/zzossig/hugo-theme-zdoc) &nbsp; just arrived"
@@ -8,15 +8,18 @@ landing:
   height: 500
   image: favicon/android-icon-192x192.png
   title:
-    - Z Themes
+    - TLang
   text:
-    - This is Hugo Z Themes documentation site
+    - The template language
   titleColor:
   textColor:
   spaceBetweenTitleText: 25
   buttons:
+    - link: docs/gettingstarted/installation/
+      text: GETTING STARTED
+      color: primary
     - link: docs
-      text: HUGO THEME ZDOC
+      text: DOCS
       color: primary
   # backgroundImage: 
   #   src: images/landscape.jpg
@@ -26,102 +29,78 @@ footer:
     - title: General
       links:
         - title: Docs
-          link: https://gohugo.io/
-        - title: Learn
-          link: https://gohugo.io/
-        - title: Showcase
-          link: https://gohugo.io/
+          link: https://tlang.sorne.io/docs
         - title: Blog
-          link: https://gohugo.io/
+          link: https://tlang.sorne.io/blog
     - title: resources
       links:
         - title: GitHub
-          link: https://gohugo.io/
+          link: https://github.com/sorne-io/io.sorne.tlang
         - title: Releases
-          link: https://gohugo.io/
-        - title: Spectrum
-          link: https://gohugo.io/
-        - title: Telemetry
-          link: https://gohugo.io/
+          link: https://github.com/sorne-io/io.sorne.tlang/releases
     - title: Features
       links:
-        - title: GitHub
-          link: https://gohugo.io/
-        - title: Releases
-          link: https://gohugo.io/
-        - title: Spectrum
-          link: https://gohugo.io/
-        - title: Telemetry
-          link: https://gohugo.io/
+        - title: Multi-languages
+          link: /features/multi-languages
+        - title: Simple to learn
+          link: /features/simple
+        - title: Many templates
+          link: /features/many-templates
+        - title: IDE support
+          link: /features/ide-support
   contents: 
     align: left
     applySinglePageCss: false
     markdown:
       |
-      ## Zzo docs
+      ## TLang / sorne.io
       Copyright © 2020. All rights reserved.
 
 sections:
   - bgcolor: teal
     type: card
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+    description: "TLang is a template language that is more than a template engine. You can generate the boiler code of an entire project, configuration files included."
     header: 
-      title: Why Zdoc
+      title: Why TLang
       hlcolor: "#8bc34a"
       color: '#fff'
       fontSize: 32
       width: 220
     cards:
-      - subtitle: Performance
+      - subtitle: Multi-languages
         subtitlePosition: center
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue."
+        description: "Generate code in multi-languages. TLang can help you with programming languages or configuration files"
         image: images/section/keyboard.png
         color: white
         button: 
-          name: Naver
-          link: https://gohugo.io/
+          name: Learn more
+          link: /features/multi-languages
           size: large
           target: _blank
           color: 'white'
           bgcolor: '#283593'
-      - subtitle: Reliability
+      - subtitle: Simple to learn
         subtitlePosition: center
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+        description: "You don't need month tos to learn and be able to use TLang. The purpose is to generate code so TLang doesn't need deep and incompréhensible functions."
         image: images/section/processor.png
         color: white
         button: 
-          name: Google
-          link: https://gohugo.io/
+          name: Learn more
+          link: /features/simple
           size: large
           target: _blank
           color: 'white'
           bgcolor: '#283593'
-      - subtitle: Productivity
+      - subtitle: Many templates
         subtitlePosition: center
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+        description: "There is a growing number of templates available for you to use. Generate code for many technologies and framework easily."
         image: images/section/root-server.png
         color: white
         button: 
-          name: Yahoo
-          link: https://gohugo.io/
+          name: Learn more
+          link: /features/many-templates
           size: large
           target: _blank
           color: 'white'
           bgcolor: '#283593'
-  - bgcolor: DarkSlateBlue
-    type: normal
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
-    header:
-      title: Build it with Zdoc
-      hlcolor: DarkKhaki
-      color: "#fff"
-      fontSize: 32
-      width: 340
-    body:
-      subtitle: Extensible and customizable.
-      subtitlePosition: left
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
-      color: white
-      image: images/section/root-server.png
-      imagePosition: left
 ---

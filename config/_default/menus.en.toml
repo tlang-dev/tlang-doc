@@ -1,13 +1,13 @@
 [[main]]
-  identifier = "docs"
-  name = "Docs"
-  url = "docs"
+  identifier = "Features"
+  name = "Features"
+  url = "features"
   weight = 1
 
 [[main]]
-  identifier = "updates"
-  name = "Updates"
-  url = "updates"
+  identifier = "docs"
+  name = "Docs"
+  url = "docs"
   weight = 2
 
 [[main]]

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Getting Started on ZDoc</title>
+    <title>Getting Started on TLang</title>
     <link>http://example.org/docs/gettingstarted/</link>
-    <description>Recent content in Getting Started on ZDoc</description>
+    <description>Recent content in Getting Started on TLang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
@@ -15,24 +15,6 @@
     
       
       <item>
-        <title>Basic Usage</title>
-        <link>http://example.org/docs/gettingstarted/basicusage/</link>
-        <pubDate>Tue, 28 Jan 2020 00:34:51 +0900</pubDate>
-        
-        <guid>http://example.org/docs/gettingstarted/basicusage/</guid>
-        <description>Markdown here</description>
-      </item>
-      
-      <item>
-        <title>Configuration</title>
-        <link>http://example.org/docs/gettingstarted/configuration/</link>
-        <pubDate>Tue, 28 Jan 2020 00:34:56 +0900</pubDate>
-        
-        <guid>http://example.org/docs/gettingstarted/configuration/</guid>
-        <description>Markdown here</description>
-      </item>
-      
-      <item>
         <title>Installation</title>
         <link>http://example.org/docs/gettingstarted/installation/</link>
         <pubDate>Tue, 28 Jan 2020 00:34:13 +0900</pubDate>
@@ -42,11 +24,11 @@
       </item>
       
       <item>
-        <title>Quick Start</title>
-        <link>http://example.org/docs/gettingstarted/quickstart/</link>
+        <title>Hello world !</title>
+        <link>http://example.org/docs/gettingstarted/helloworld/</link>
         <pubDate>Tue, 28 Jan 2020 00:34:41 +0900</pubDate>
         
-        <guid>http://example.org/docs/gettingstarted/quickstart/</guid>
+        <guid>http://example.org/docs/gettingstarted/helloworld/</guid>
         <description>Markdown here</description>
       </item>
       

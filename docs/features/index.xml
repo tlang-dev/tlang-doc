@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TLang</title>
-    <link>http://example.org/</link>
-    <description>Recent content on TLang</description>
+    <title>Features on TLang</title>
+    <link>http://example.org/features/</link>
+    <description>Recent content in Features on TLang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2020 00:08:29 +0900</lastBuildDate>
     
-        <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://example.org/features/index.xml" rel="self" type="application/rss+xml" />
     
     
     
-      
-      <item>
-        <title>Installation</title>
-        <link>http://example.org/docs/gettingstarted/installation/</link>
-        <pubDate>Tue, 28 Jan 2020 00:34:13 +0900</pubDate>
-        
-        <guid>http://example.org/docs/gettingstarted/installation/</guid>
-        <description>Markdown here</description>
-      </item>
       
       <item>
         <title>Multi-languages</title>
@@ -30,15 +21,6 @@
         
         <guid>http://example.org/features/multi-languages/</guid>
         <description>Multi-languages</description>
-      </item>
-      
-      <item>
-        <title>Hello world !</title>
-        <link>http://example.org/docs/gettingstarted/helloworld/</link>
-        <pubDate>Tue, 28 Jan 2020 00:34:41 +0900</pubDate>
-        
-        <guid>http://example.org/docs/gettingstarted/helloworld/</guid>
-        <description>Markdown here</description>
       </item>
       
       <item>
