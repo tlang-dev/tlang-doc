@@ -2,17 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Language specifications on TLang</title>
-    <link>http://example.org/docs/langspecs/</link>
+    <link>https://tlang.sorne.io/docs/langspecs/</link>
     <description>Recent content in Language specifications on TLang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Tue, 28 Jan 2020 00:36:39 +0900</lastBuildDate>
     
-        <atom:link href="http://example.org/docs/langspecs/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://tlang.sorne.io/docs/langspecs/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>Overview</title>
+        <link>https://tlang.sorne.io/docs/langspecs/overview/</link>
+        <pubDate>Tue, 28 Jan 2020 00:36:39 +0900</pubDate>
+        
+        <guid>https://tlang.sorne.io/docs/langspecs/overview/</guid>
+        <description>The TLang code is written in .tlang files. They are composed of different parts that are not mandatory. The first part is the context of the file, mainly the packages that are imported or exposed. More will be said latter.
+Then in the sections of the file are described. There are three types:
+ model, it represents the objects and the structure of your program helper, it contains the logic. Everything that will be executed is written in this section template, it defines the templates that will be used to generate the final code  You don&amp;rsquo;t need to use all of them in every file.</description>
+      </item>
+      
+      <item>
+        <title>Model</title>
+        <link>https://tlang.sorne.io/docs/langspecs/model/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.sorne.io/docs/langspecs/model/</guid>
+        <description>The model is where your will define your types and most of your variables. Those variables may also describe the architecture of your program.
+There are five types of variables:
+ the primitives such as string, int or bool the arrays the entities that can contain other variables of all types. the function declarations that define the parameters and the return types the references that are short cuts to the other types  Entities An entity is both a type and a variable (or an implementation).</description>
+      </item>
+      
+      <item>
+        <title>Helper</title>
+        <link>https://tlang.sorne.io/docs/langspecs/helper/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.sorne.io/docs/langspecs/helper/</guid>
+        <description>The helper is the logic part, this is where everything is executed.
+Functions helper {func myFunc() {}}Variables Conditions Loops </description>
+      </item>
+      
+      <item>
+        <title>Template</title>
+        <link>https://tlang.sorne.io/docs/langspecs/template/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.sorne.io/docs/langspecs/template/</guid>
+        <description>Template section</description>
+      </item>
+      
+      <item>
+        <title>Package</title>
+        <link>https://tlang.sorne.io/docs/langspecs/package/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.sorne.io/docs/langspecs/package/</guid>
+        <description>Package section</description>
+      </item>
       
     
   </channel>

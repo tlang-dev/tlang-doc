@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Features on TLang</title>
-    <link>http://example.org/features/</link>
+    <link>https://tlang.sorne.io/features/</link>
     <description>Recent content in Features on TLang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Tue, 28 Jan 2020 00:08:29 +0900</lastBuildDate>
     
-        <atom:link href="http://example.org/features/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://tlang.sorne.io/features/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>Multi-languages</title>
-        <link>http://example.org/features/multi-languages/</link>
+        <link>https://tlang.sorne.io/features/multi-languages/</link>
         <pubDate>Tue, 28 Jan 2020 00:08:29 +0900</pubDate>
         
-        <guid>http://example.org/features/multi-languages/</guid>
+        <guid>https://tlang.sorne.io/features/multi-languages/</guid>
         <description>Multi-languages</description>
       </item>
       
       <item>
         <title>Simple to learn</title>
-        <link>http://example.org/features/simple/</link>
+        <link>https://tlang.sorne.io/features/simple/</link>
         <pubDate>Tue, 28 Jan 2020 00:08:29 +0900</pubDate>
         
-        <guid>http://example.org/features/simple/</guid>
+        <guid>https://tlang.sorne.io/features/simple/</guid>
         <description>Simple to learn</description>
       </item>
       
       <item>
         <title>Many templates</title>
-        <link>http://example.org/features/many-templates/</link>
+        <link>https://tlang.sorne.io/features/many-templates/</link>
         <pubDate>Tue, 28 Jan 2020 00:08:29 +0900</pubDate>
         
-        <guid>http://example.org/features/many-templates/</guid>
+        <guid>https://tlang.sorne.io/features/many-templates/</guid>
         <description>Many templates</description>
       </item>
       
       <item>
         <title>IDE support</title>
-        <link>http://example.org/features/ide-support/</link>
+        <link>https://tlang.sorne.io/features/ide-support/</link>
         <pubDate>Tue, 28 Jan 2020 00:08:29 +0900</pubDate>
         
-        <guid>http://example.org/features/ide-support/</guid>
+        <guid>https://tlang.sorne.io/features/ide-support/</guid>
         <description>IDE support</description>
       </item>
       

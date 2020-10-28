@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on TLang</title>
-    <link>http://example.org/docs/</link>
+    <link>https://tlang.sorne.io/docs/</link>
     <description>Recent content in Docs on TLang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
     
-        <atom:link href="http://example.org/docs/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://tlang.sorne.io/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>Getting Started</title>
-        <link>http://example.org/docs/gettingstarted/</link>
+        <link>https://tlang.sorne.io/docs/gettingstarted/</link>
         <pubDate>Tue, 28 Jan 2020 00:34:39 +0900</pubDate>
         
-        <guid>http://example.org/docs/gettingstarted/</guid>
+        <guid>https://tlang.sorne.io/docs/gettingstarted/</guid>
         <description></description>
       </item>
       
       <item>
         <title>Language specifications</title>
-        <link>http://example.org/docs/langspecs/</link>
+        <link>https://tlang.sorne.io/docs/langspecs/</link>
         <pubDate>Tue, 28 Jan 2020 00:36:39 +0900</pubDate>
         
-        <guid>http://example.org/docs/langspecs/</guid>
+        <guid>https://tlang.sorne.io/docs/langspecs/</guid>
         <description></description>
       </item>
       
