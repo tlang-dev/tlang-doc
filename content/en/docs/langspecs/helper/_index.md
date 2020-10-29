@@ -20,6 +20,30 @@ helper {
 
 ## Variables
 
+```tlang
+helper {
+    let var1
+}
+```
+
 ## Conditions
 
+```tlang
+helper {
+    if() {
+
+    } else {
+
+    }
+}
+```
+
 ## Loops
+
+```tlang
+helper {
+    for() {
+        
+    }
+}
+```
