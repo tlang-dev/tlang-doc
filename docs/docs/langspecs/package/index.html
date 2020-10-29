@@ -1276,6 +1276,52 @@
   
 
     
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  <li class="menu__title--collapse " data-depth="0" data-permalink="https://tlang.sorne.io/docs/libraries/">
+    <span class="menu__title--collapse-text">
+      Libraries
+    </span>
+    <span class="menu__title--icon right">
+      
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
+      
+    </span>
+  </li>
+  <ul class="menu__list " data-data=/libraries/ data-link=https://tlang.sorne.io/docs/langspecs/package/>
+    
+      
+        
+        
+        <li>
+          <a href="https://tlang.sorne.io/docs/libraries/internal/" class="menu__title " data-depth="0">Internal</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="https://tlang.sorne.io/docs/libraries/tbags/" class="menu__title " data-depth="0">TBags</a>
+        </li>
+      
+    
+  </ul>
+  
+
+    
   </ul>
 </div>
 
@@ -1783,6 +1829,52 @@
   
 
     
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  <li class="menu__title--collapse " data-depth="0" data-permalink="https://tlang.sorne.io/docs/libraries/">
+    <span class="menu__title--collapse-text">
+      Libraries
+    </span>
+    <span class="menu__title--icon right">
+      
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
+      
+    </span>
+  </li>
+  <ul class="menu__list " data-data=/libraries/ data-link=https://tlang.sorne.io/docs/langspecs/package/>
+    
+      
+        
+        
+        <li>
+          <a href="https://tlang.sorne.io/docs/libraries/internal/" class="menu__title " data-depth="0">Internal</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="https://tlang.sorne.io/docs/libraries/tbags/" class="menu__title " data-depth="0">TBags</a>
+        </li>
+      
+    
+  </ul>
+  
+
+    
   </ul>
 </div>
 
@@ -1817,8 +1909,40 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    <p>Package section</p>
-
+    <p>A package is represented by a folder in the file system. It has access to only one level, meaning the folder inside the current folder. Of course you get access to all files in the same folder.</p>
+<h2 id="one-level">One level</h2>
+<pre><code>    MyCurrentFolder
+    |- File1.tlang
+    |- File2.tlang
+    |- FirstFolderInside
+    |  |- File11.tlang
+    |  |- File12.tlang
+    |- SecondFolderInside
+       |- File21.tlang
+       |- File22.tlang
+</code></pre><p>Based on the above hierarchy, assuming that your are working in File1.tlang and want to access functions in File2.tlang, File11.tlang, File21.tlang you can do the following:</p>
+<ul>
+<li>to access functions in File2.tlang you don&rsquo;t need to import or expose anything, File2.func1() will work</li>
+<li>to access functions in File11.tlang you need to expose first the functions in</li>
+</ul>
+<h2 id="two-levels-and-more">Two levels and more</h2>
+<pre><code>    MyCurrentFolder
+    |- File1.tlang
+    |- File2.tlang
+    |- FirstFolderInside
+       |- File11.tlang
+       |- File12.tlang
+       |- SubSubFolder
+          |- File111.tlang
+          |- File112.tlang
+</code></pre><h2 id="other-folders-inside-same-parent">Other folders inside same parent</h2>
+<pre><code>    MyCurrentFolder
+    |- File1.tlang
+    |- File2.tlang
+    AnotherFolder
+    |- File3.tlang
+    |- File4.tlang
+</code></pre>
   </article>
 </div>
       

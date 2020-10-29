@@ -43,7 +43,7 @@ There are five types of variables:
         
         <guid>https://tlang.sorne.io/docs/langspecs/helper/</guid>
         <description>The helper is the logic part, this is where everything is executed.
-Functions helper {func myFunc() {}}Variables Conditions Loops </description>
+Functions helper {func myFunc() {}}Variables helper {let var1}Conditions helper {if() {} else {}}Loops helper {for() {}}</description>
       </item>
       
       <item>
@@ -52,7 +52,9 @@ Functions helper {func myFunc() {}}Variables Conditions Loops </description>
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
         <guid>https://tlang.sorne.io/docs/langspecs/template/</guid>
-        <description>Template section</description>
+        <description>The template section is a bit special because it is not interpreted the same way as the other sections. As long as it is grammatically correct it&amp;rsquo;s fine, even if it doesn&amp;rsquo;t make any sense.
+A template is simply taken and transformed into another language without interpreting or attempting to make any sense if the destination language. The generated code might not compile.
+If you create your own template you need to know the destination language to make compilable and executable code.</description>
       </item>
       
       <item>
@@ -61,7 +63,8 @@ Functions helper {func myFunc() {}}Variables Conditions Loops </description>
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
         <guid>https://tlang.sorne.io/docs/langspecs/package/</guid>
-        <description>Package section</description>
+        <description>A package is represented by a folder in the file system. It has access to only one level, meaning the folder inside the current folder. Of course you get access to all files in the same folder.
+One level  MyCurrentFolder|- File1.tlang|- File2.tlang|- FirstFolderInside| |- File11.tlang| |- File12.tlang|- SecondFolderInside|- File21.tlang|- File22.tlangBased on the above hierarchy, assuming that your are working in File1.</description>
       </item>
       
     

@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://tlang.sorne.io/docs/libraries/internal/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tlang.sorne.io/docs/langspecs/</loc>
     <lastmod>2020-01-28T00:36:39+09:00</lastmod>
   </url>
@@ -40,6 +45,16 @@
   <url>
     <loc>https://tlang.sorne.io/docs/langspecs/model/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.sorne.io/docs/libraries/tbags/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.sorne.io/docs/libraries/</loc>
+    <lastmod>2020-01-28T00:36:39+09:00</lastmod>
   </url>
   
   <url>
