@@ -1925,7 +1925,7 @@ There are five types of variables:</p>
     set MyEntity(param1 String, param2 Int[], param3 AnotherEntity) {
         var1 String,
         var2 AThirdEntity[],
-        var3 (String, Int[]) -&gt; (String),
+        var3 (String, Int[]): (String),
         var4 impl{
             var1 String
         } 
@@ -1938,7 +1938,46 @@ There are five types of variables:</p>
 }
 
 </code></pre><h2 id="variables">Variables</h2>
+<p>It is actually a bit misleading to call them variables as they cannot change. They are immutable variables. You can write them once, read them and change their value only when you affect them to another variable.</p>
+<p>The power of immutable variables is that they prevent many side effects. If you cannot change the value, you cannot alter the behaviour of another part of your program.</p>
+<h3 id="primitives">Primitives</h3>
+<pre><code class="language-tlang" data-lang="tlang">model {
+    let myString = &quot;String value&quot;
+    
+    let myInt = 10
 
+    let myBool = true
+
+    let myDouble = 1337.42
+}
+</code></pre><h3 id="arrays">Arrays</h3>
+<pre><code class="language-tlang" data-lang="tlang">model {
+    let myStrings String[] = [&quot;String1&quot;, &quot;String2&quot;, &quot;String3&quot;]
+
+    let myInts Int[] = [1, 2, 3, 4, 5]
+
+    let myMap String[] = [&quot;key1&quot; &quot;Value1&quot;, &quot;key2&quot; &quot;Value2&quot;, &quot;key3&quot; &quot;Value3&quot;]
+}
+</code></pre><h3 id="entities-1">Entities</h3>
+<pre><code class="language-tlang" data-lang="tlang">model {
+    let myFirstEntity MyEntity(&quot;Param1&quot;, [1, 2], param3 AnotherEntity {}) {
+        var1 &quot;Var1&quot;,
+        var2 [AThirdEntity{}, AThirdEntity{}, AThirdEntity{}],
+        var3 myFuncDefinedInHelper(#, [42,1337]),
+        var4 impl(&quot;Param1&quot;, [3,4], param3 AnotherEntity {}){
+            var1 &quot;Var1&quot;
+        } 
+        var6 (true) {
+            &quot;Var1&quot;
+        },
+        var7 [
+            (&quot;Param1&quot;, [1, 2], param3 AnotherEntity {}),
+            (&quot;Param1&quot;, [5, 6], param3 AnotherEntity {})
+        ]
+    }
+}
+
+</code></pre>
   </article>
 </div>
       

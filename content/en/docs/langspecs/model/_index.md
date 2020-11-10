@@ -23,7 +23,7 @@ model {
     set MyEntity(param1 String, param2 Int[], param3 AnotherEntity) {
         var1 String,
         var2 AThirdEntity[],
-        var3 (String, Int[]) -> (String),
+        var3 (String, Int[]): (String),
         var4 impl{
             var1 String
         } 
@@ -37,4 +37,57 @@ model {
 
 ```
 
+
 ## Variables
+
+It is actually a bit misleading to call them variables as they cannot change. They are immutable variables. You can write them once, read them and change their value only when you affect them to another variable.
+
+The power of immutable variables is that they prevent many side effects. If you cannot change the value, you cannot alter the behaviour of another part of your program. 
+
+### Primitives
+
+```tlang
+model {
+    let myString = "String value"
+    
+    let myInt = 10
+
+    let myBool = true
+
+    let myDouble = 1337.42
+}
+```
+
+### Arrays
+
+```tlang
+model {
+    let myStrings String[] = ["String1", "String2", "String3"]
+
+    let myInts Int[] = [1, 2, 3, 4, 5]
+
+    let myMap String[] = ["key1" "Value1", "key2" "Value2", "key3" "Value3"]
+}
+```
+
+### Entities
+```tlang
+model {
+    let myFirstEntity MyEntity("Param1", [1, 2], param3 AnotherEntity {}) {
+        var1 "Var1",
+        var2 [AThirdEntity{}, AThirdEntity{}, AThirdEntity{}],
+        var3 myFuncDefinedInHelper(#, [42,1337]),
+        var4 impl("Param1", [3,4], param3 AnotherEntity {}){
+            var1 "Var1"
+        } 
+        var6 (true) {
+            "Var1"
+        },
+        var7 [
+            ("Param1", [1, 2], param3 AnotherEntity {}),
+            ("Param1", [5, 6], param3 AnotherEntity {})
+        ]
+    }
+}
+
+```
