@@ -21,22 +21,30 @@ First we define or set a new type:
 ```tlang
 model {
     set MyEntity(param1 String, param2 Int[], param3 AnotherEntity) {
-        var1 String,
-        var2 AThirdEntity[],
-        var3 (String, Int[]): (String),
-        var4 impl{
-            var1 String
+        attr1 String,
+        attr2 AThirdEntity[],
+        attr3 (String, Int[]): (String),
+        attr4 impl{
+            attr41 String
         } 
-        var5 &var4.var1
-        var6 (param1 Bool) {
-            var1 String
+        attr5 &attr4.attr41
+        attr6 (param61 Bool) {
+            attr61 String
         },
-        var7 impl[]
+        attr7 impl[]
     }
 }
 
 ```
+MyEntity defines three parameters and seven attributes. Those three parameters makes MyEntity a model within a model. MyEntity is a model because it can be and will be implemented by a variable. The variables will be required to implement the seven attributes. However, the parameters will be implemented by the attributes of type "impl" defined by the attributes attr4 and attr7. In the next section, we are going to implement this model which should make it easier to understand.
 
+With one entity, it is possible to represent the whole structure of a program that would require many interfaces and classes in other languages.
+
+### The parameters
+
+* param1 is of type String which is a simple chain of characters
+* param2 is of type Int[] which is an array of integers
+* param3 is of type AnotherEntity which is another entity such as MyEntity (not defined in this example)
 
 ## Variables
 
