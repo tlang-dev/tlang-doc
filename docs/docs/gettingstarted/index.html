@@ -9,13 +9,13 @@
 
 
   
-  <script defer src="/js/fuse.min.c4bee9a8d44273d6154fe86006923d4131eb2e8069d8897687137c6f37f553e3.js"></script>
+  <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
 
 
-<script src="/js/enquire.min.aa37bdcb743826eecdae5c5d177fc7d6552340f1b4378ffaa9c82b2c6111400b.js"></script>
+<script src="/js/enquire.min.dfb99dee1e029d51d6cfb672d847929890b1585402de17f5ed092edd72a688b4.js"></script>
 
-<script defer src="/js/lazysizes.min.5e11d056075a05065b9c0bfec44084a113fc2976c2952ec804dedb61c7662db9.js"></script>
+<script defer src="/js/lazysizes.min.31dd6a2d3a1ec0f78a8df007535cf23f03aeb5c70f026e6d6a19dac3b3acc340.js"></script>
 
 <script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
 
@@ -1084,7 +1084,7 @@
 <meta property="og:url" content="https://tlang.sorne.io/docs/gettingstarted/">
 <meta property="og:type" content="website">
 
-<meta name="generator" content="Hugo 0.72.0" />
+<meta name="generator" content="Hugo 0.78.1" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://tlang.sorne.io/docs/gettingstarted/">
@@ -1130,12 +1130,20 @@
 
 </head>
 
+
 <body id="root" class="theme__light">
     <script>
+        var rootElem = document.getElementById('root');
+        var themeOptions = JSON.parse("[\"light\",\"dark\"]");
         var localTheme = localStorage.getItem('theme');
+
         if (localTheme) {
-            document.getElementById('root').className = `theme__${localTheme}`;
-        }        
+            if (themeOptions && themeOptions.length > 0) {
+                themeOptions.includes(localTheme) ? 
+                rootElem.className = `theme__${localTheme}` :
+                rootElem.className = `theme__${themeOptions[0]}`;
+            }
+        }
     </script>
     
     <div id="container">
@@ -1220,9 +1228,9 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="0" data-permalink="https://tlang.sorne.io/docs/langspecs/">
+  <li class="menu__title--collapse " data-depth="0" data-permalink="https://tlang.sorne.io/docs/specs/">
     <span class="menu__title--collapse-text">
-      Language specifications
+      Specifications
     </span>
     <span class="menu__title--icon right">
       
@@ -1230,13 +1238,13 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/langspecs/ data-link=https://tlang.sorne.io/docs/gettingstarted/>
+  <ul class="menu__list " data-data=/specs/ data-link=https://tlang.sorne.io/docs/gettingstarted/>
     
       
         
         
         <li>
-          <a href="https://tlang.sorne.io/docs/langspecs/overview/" class="menu__title " data-depth="0">Overview</a>
+          <a href="https://tlang.sorne.io/docs/specs/overview/" class="menu__title " data-depth="0">Overview</a>
         </li>
       
     
@@ -1244,7 +1252,7 @@
         
         
         <li>
-          <a href="https://tlang.sorne.io/docs/langspecs/model/" class="menu__title " data-depth="0">Model</a>
+          <a href="https://tlang.sorne.io/docs/specs/model/" class="menu__title " data-depth="0">Model</a>
         </li>
       
     
@@ -1252,7 +1260,7 @@
         
         
         <li>
-          <a href="https://tlang.sorne.io/docs/langspecs/helper/" class="menu__title " data-depth="0">Helper</a>
+          <a href="https://tlang.sorne.io/docs/specs/helper/" class="menu__title " data-depth="0">Helper</a>
         </li>
       
     
@@ -1260,7 +1268,7 @@
         
         
         <li>
-          <a href="https://tlang.sorne.io/docs/langspecs/template/" class="menu__title " data-depth="0">Template</a>
+          <a href="https://tlang.sorne.io/docs/specs/template/" class="menu__title " data-depth="0">Template</a>
         </li>
       
     
@@ -1268,7 +1276,7 @@
         
         
         <li>
-          <a href="https://tlang.sorne.io/docs/langspecs/package/" class="menu__title " data-depth="0">Package</a>
+          <a href="https://tlang.sorne.io/docs/specs/package/" class="menu__title " data-depth="0">Package</a>
         </li>
       
     
@@ -1764,9 +1772,9 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="0" data-permalink="https://tlang.sorne.io/docs/langspecs/">
+  <li class="menu__title--collapse " data-depth="0" data-permalink="https://tlang.sorne.io/docs/specs/">
     <span class="menu__title--collapse-text">
-      Language specifications
+      Specifications
     </span>
     <span class="menu__title--icon right">
       
@@ -1774,13 +1782,13 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/langspecs/ data-link=https://tlang.sorne.io/docs/gettingstarted/>
+  <ul class="menu__list " data-data=/specs/ data-link=https://tlang.sorne.io/docs/gettingstarted/>
     
       
         
         
         <li>
-          <a href="https://tlang.sorne.io/docs/langspecs/overview/" class="menu__title " data-depth="0">Overview</a>
+          <a href="https://tlang.sorne.io/docs/specs/overview/" class="menu__title " data-depth="0">Overview</a>
         </li>
       
     
@@ -1788,7 +1796,7 @@
         
         
         <li>
-          <a href="https://tlang.sorne.io/docs/langspecs/model/" class="menu__title " data-depth="0">Model</a>
+          <a href="https://tlang.sorne.io/docs/specs/model/" class="menu__title " data-depth="0">Model</a>
         </li>
       
     
@@ -1796,7 +1804,7 @@
         
         
         <li>
-          <a href="https://tlang.sorne.io/docs/langspecs/helper/" class="menu__title " data-depth="0">Helper</a>
+          <a href="https://tlang.sorne.io/docs/specs/helper/" class="menu__title " data-depth="0">Helper</a>
         </li>
       
     
@@ -1804,7 +1812,7 @@
         
         
         <li>
-          <a href="https://tlang.sorne.io/docs/langspecs/template/" class="menu__title " data-depth="0">Template</a>
+          <a href="https://tlang.sorne.io/docs/specs/template/" class="menu__title " data-depth="0">Template</a>
         </li>
       
     
@@ -1812,7 +1820,7 @@
         
         
         <li>
-          <a href="https://tlang.sorne.io/docs/langspecs/package/" class="menu__title " data-depth="0">Package</a>
+          <a href="https://tlang.sorne.io/docs/specs/package/" class="menu__title " data-depth="0">Package</a>
         </li>
       
     
@@ -1936,6 +1944,251 @@
 
   </div>
 </div>
+
+<script>
+  'use strict';
+  
+  function wrap(el, wrapper) {
+    el.parentNode.insertBefore(wrapper, el);
+    wrapper.appendChild(el);
+  }
+
+  (function () {
+    var singleContentsElem = document.querySelector('.single__contents');
+    singleContentsElem ? 
+    singleContentsElem.querySelectorAll('pre > code').forEach(function(elem) {
+      var dataLang = elem.getAttribute('data-lang');
+      var dataLangWrapper = document.createElement('div');
+      var code = null;
+      var codeTitle = null;
+
+      if (dataLang && dataLang.includes(':')) {
+        code = dataLang.split(':')[0];
+        codeTitle = dataLang.split(':')[1];
+
+        dataLangWrapper.className = 'language-' + code;
+        dataLangWrapper.setAttribute('data-lang', codeTitle);
+
+        elem.className = 'language-' + code;
+        elem.setAttribute('data-lang', codeTitle);
+        elem.setAttribute('id', codeTitle);
+      }
+
+      if (!dataLang || codeTitle) {
+        wrap(elem.parentNode, dataLangWrapper);
+      }
+
+    }) : null;
+  })();
+  
+
+
+  
+  
+  var dollarCodeElem = document.querySelectorAll('div.language-\\$');
+  var gtCodeElem = document.querySelectorAll('div.language-\\>');
+  
+  dollarCodeElem ?
+  dollarCodeElem.forEach(function(elem) {
+    var lnts = elem.parentNode.parentNode ? elem.parentNode.parentNode.querySelectorAll('.lnt') : null;
+    lnts ? 
+    lnts.forEach(function(lnt) {
+      lnt.innerHTML = '$<br/>';
+    }) : null;
+  }) : null;
+
+  gtCodeElem ?
+  gtCodeElem.forEach(function(elem) {
+    var lnts = elem.parentNode.parentNode ? elem.parentNode.parentNode.querySelectorAll('.lnt') : null;
+    lnts ? 
+    lnts.forEach(function(lnt) {
+      lnt.innerHTML = '><br/>';
+    }) : null;
+  }) : null;
+  
+</script>
+
+
+
+
+<script defer src="/js/helper/getParents.min.js"></script>
+
+<script defer src="/js/helper/closest.min.js"></script>
+
+<script defer src="/js/helper/prev.min.js"></script>
+
+<script defer src="/js/helper/prop.min.js"></script>
+
+<script defer src="/js/helper/fadeinout.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    'use strict';
+    
+    
+    var tables = document.querySelectorAll('.single__contents > table');
+    for (let i = 0; i < tables.length; i++) {
+      var table = tables[i];
+      var wrapper = document.createElement('div');
+      wrapper.className = 'table-wrapper';
+      table.parentElement.replaceChild(wrapper, table);
+      wrapper.appendChild(table);
+    }
+    
+
+
+    
+    
+    
+    var lib = JSON.parse("null");
+
+    if (lib && lib.includes('mermaid')) {
+      var themeVariant = localStorage.getItem('theme') || 'light';
+
+      if (themeVariant === "dark") {
+        mermaid.initialize({ theme: 'dark' });
+      } else {
+        mermaid.initialize({ theme: 'default' });
+      }
+      
+      var mermaids = [];
+      [].push.apply(mermaids, document.getElementsByClassName('language-mermaid'));
+      mermaids.forEach(function(elem) {
+        var elemParentNode = elem.parentNode;
+
+        if (elemParentNode !== document.body) {
+          elemParentNode.parentNode.insertBefore(elem, elemParentNode);
+          elemParentNode.parentNode.removeChild(elemParentNode);
+        }
+
+        var newElemWrapper = document.createElement('div');
+        newElemWrapper.classList.add('mermaid');
+        newElemWrapper.innerHTML = elem.innerHTML;
+        elem.replaceWith(newElemWrapper);
+      });
+    }
+    
+    
+
+    
+    if (lib && lib.includes('katex')) {
+      var mathElements = document.getElementsByClassName('math');
+      var options = {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "\\[", right: "\\]", display: true },
+          { left: "$", right: "$", display: false },
+          { left: "\\(", right: "\\)", display: false }
+        ],
+      };
+
+      renderMathInElement(document.querySelector('.single__contents'), options);
+    }
+    
+
+
+    
+    if (lib && lib.includes('flowchartjs')) {
+      
+      var options = JSON.parse("null");
+      var jsonContent = null;
+
+      var flowchartPrefix = "language-flowchart";
+      var index = 0;
+      Array.prototype.forEach.call(document.querySelectorAll("[class^=" + flowchartPrefix + "]"), function(x){
+          x.style.display = 'none'
+          x.parentNode.style.backgroundColor = "transparent"
+          jsonContent = x.innerText;
+
+          var node0 = document.createElement('div');
+          node0.id = 'flowchart' + index;
+          x.parentNode.insertBefore(node0, x);
+
+          var diagram = flowchart.parse(jsonContent);
+          diagram.drawSVG("flowchart"+index, options);
+
+          index +=1;
+      });      
+    }
+    
+
+
+    
+    if (lib && lib.includes('chart')) {
+      var borderColor = "#666";
+      var bgColor = "#ddd";
+      var borderWidth = 2;
+
+      Chart.defaults.global.elements.rectangle.borderWidth = borderWidth;
+      Chart.defaults.global.elements.rectangle.borderColor = borderColor;
+      Chart.defaults.global.elements.rectangle.backgroundColor = bgColor;
+
+      Chart.defaults.global.elements.line.borderWidth = borderWidth;
+      Chart.defaults.global.elements.line.borderColor = borderColor;
+      Chart.defaults.global.elements.line.backgroundColor = bgColor;
+
+      Chart.defaults.global.elements.point.borderWidth = borderWidth;
+      Chart.defaults.global.elements.point.borderColor = borderColor;
+      Chart.defaults.global.elements.point.backgroundColor = bgColor;
+
+      var chartPrefix = "language-chart";
+      var index = 0;
+      var jsonContent = null;
+
+      Array.prototype.forEach.call(document.querySelectorAll("[class^=" + chartPrefix + "]"), function (x) {
+        x.style.display = 'none'
+        x.parentNode.style.backgroundColor = "transparent"
+        jsonContent = x.innerText;
+        var node0 = document.createElement('canvas');
+        var source = null;
+        node0.height = 200;
+        node0.style.height = 200;
+        node0.id = 'myChart' + index;
+        source = JSON.parse(jsonContent);
+        x.parentNode.insertBefore(node0, x);
+        var ctx = document.getElementById('myChart' + index).getContext('2d');
+        var myChart = new Chart(ctx, source);
+        index += 1;
+      });            
+    }
+    
+
+
+    
+    if (lib && lib.includes('viz')) {
+      var vizPrefix = "language-viz-";
+      Array.prototype.forEach.call(document.querySelectorAll("[class^=" + vizPrefix + "]"), function (x) {
+        x.style.display = 'none'
+        x.parentNode.style.backgroundColor = "transparent"
+        var engine;
+        x.getAttribute("class").split(" ").forEach(function (cls) {
+          if (cls.startsWith(vizPrefix)) {
+            engine = cls.substr(vizPrefix.length);
+          }
+        });
+        var viz = new Viz();
+        viz.renderSVGElement(x.innerText, { engine: engine })
+          .then(function (element) {
+            element.style.width = "100%";
+            x.parentNode.insertBefore(element, x);
+          })
+      });
+    }
+    
+    
+  });
+</script>
 
 <script>
   var listMenu = document.getElementById('list-menu');

@@ -16,10 +16,10 @@
       
       <item>
         <title>Overview</title>
-        <link>https://tlang.sorne.io/docs/langspecs/overview/</link>
+        <link>https://tlang.sorne.io/docs/specs/overview/</link>
         <pubDate>Tue, 28 Jan 2020 00:36:39 +0900</pubDate>
         
-        <guid>https://tlang.sorne.io/docs/langspecs/overview/</guid>
+        <guid>https://tlang.sorne.io/docs/specs/overview/</guid>
         <description>The TLang code is written in .tlang files. They are composed of different parts that are not mandatory. The first part is the context of the file, mainly the packages that are imported or exposed. More will be said latter.
 Then in the sections of the file are described. There are three types:
  model, it represents the objects and the structure of your program helper, it contains the logic. Everything that will be executed is written in this section template, it defines the templates that will be used to generate the final code  You don&amp;rsquo;t need to use all of them in every file.</description>

@@ -9,13 +9,13 @@
 
 
   
-  <script defer src="/js/fuse.min.c4bee9a8d44273d6154fe86006923d4131eb2e8069d8897687137c6f37f553e3.js"></script>
+  <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
 
 
-<script src="/js/enquire.min.aa37bdcb743826eecdae5c5d177fc7d6552340f1b4378ffaa9c82b2c6111400b.js"></script>
+<script src="/js/enquire.min.dfb99dee1e029d51d6cfb672d847929890b1585402de17f5ed092edd72a688b4.js"></script>
 
-<script defer src="/js/lazysizes.min.5e11d056075a05065b9c0bfec44084a113fc2976c2952ec804dedb61c7662db9.js"></script>
+<script defer src="/js/lazysizes.min.31dd6a2d3a1ec0f78a8df007535cf23f03aeb5c70f026e6d6a19dac3b3acc340.js"></script>
 
 <script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
 
@@ -1083,7 +1083,7 @@
 <meta property="og:url" content="https://tlang.sorne.io/features/ide-support/">
 <meta property="og:type" content="article">
 
-<meta name="generator" content="Hugo 0.72.0" />
+<meta name="generator" content="Hugo 0.78.1" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://tlang.sorne.io/features/ide-support/">
@@ -1131,12 +1131,20 @@
 
 </head>
 
+
 <body id="root" class="theme__light">
     <script>
+        var rootElem = document.getElementById('root');
+        var themeOptions = JSON.parse("[\"light\",\"dark\"]");
         var localTheme = localStorage.getItem('theme');
+
         if (localTheme) {
-            document.getElementById('root').className = `theme__${localTheme}`;
-        }        
+            if (themeOptions && themeOptions.length > 0) {
+                themeOptions.includes(localTheme) ? 
+                rootElem.className = `theme__${localTheme}` :
+                rootElem.className = `theme__${themeOptions[0]}`;
+            }
+        }
     </script>
     
     <div id="container">
@@ -1814,6 +1822,31 @@
     }) : null;
   })();
   
+
+
+  
+  
+  var dollarCodeElem = document.querySelectorAll('div.language-\\$');
+  var gtCodeElem = document.querySelectorAll('div.language-\\>');
+  
+  dollarCodeElem ?
+  dollarCodeElem.forEach(function(elem) {
+    var lnts = elem.parentNode.parentNode ? elem.parentNode.parentNode.querySelectorAll('.lnt') : null;
+    lnts ? 
+    lnts.forEach(function(lnt) {
+      lnt.innerHTML = '$<br/>';
+    }) : null;
+  }) : null;
+
+  gtCodeElem ?
+  gtCodeElem.forEach(function(elem) {
+    var lnts = elem.parentNode.parentNode ? elem.parentNode.parentNode.querySelectorAll('.lnt') : null;
+    lnts ? 
+    lnts.forEach(function(lnt) {
+      lnt.innerHTML = '><br/>';
+    }) : null;
+  }) : null;
+  
 </script>
 
 
@@ -1855,29 +1888,6 @@
     }
     
 
-
-    
-    var dollarCodeElem = document.querySelectorAll('div.language-\\$');
-    var gtCodeElem = document.querySelectorAll('div.language-\\>');
-    
-    dollarCodeElem ?
-    dollarCodeElem.forEach(function(elem) {
-      var lnts = elem.parentNode.parentNode ? elem.parentNode.parentNode.querySelectorAll('.lnt') : null;
-      lnts ? 
-      lnts.forEach(function(lnt) {
-        lnt.innerHTML = '$<br/>';
-      }) : null;
-    }) : null;
-
-    gtCodeElem ?
-    gtCodeElem.forEach(function(elem) {
-      var lnts = elem.parentNode.parentNode ? elem.parentNode.parentNode.querySelectorAll('.lnt') : null;
-      lnts ? 
-      lnts.forEach(function(lnt) {
-        lnt.innerHTML = '><br/>';
-      }) : null;
-    }) : null;
-    
 
     
     

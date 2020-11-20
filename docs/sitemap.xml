@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tlang.sorne.io/docs/langspecs/overview/</loc>
+    <loc>https://tlang.sorne.io/docs/specs/overview/</loc>
     <lastmod>2020-01-28T00:36:39+09:00</lastmod>
   </url>
   
@@ -28,7 +28,7 @@
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/docs/langspecs/</loc>
+    <loc>https://tlang.sorne.io/docs/specs/</loc>
     <lastmod>2020-01-28T00:36:39+09:00</lastmod>
   </url>
   
@@ -43,7 +43,7 @@
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/docs/langspecs/model/</loc>
+    <loc>https://tlang.sorne.io/docs/specs/model/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
   </url>
   
@@ -63,7 +63,7 @@
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/docs/langspecs/helper/</loc>
+    <loc>https://tlang.sorne.io/docs/specs/helper/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
   </url>
   
@@ -73,12 +73,12 @@
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/docs/langspecs/template/</loc>
+    <loc>https://tlang.sorne.io/docs/specs/template/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/docs/langspecs/package/</loc>
+    <loc>https://tlang.sorne.io/docs/specs/package/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
   </url>
   

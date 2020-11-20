@@ -18,8 +18,7 @@ You don't need to use all of them in every file. It is actually a good practice 
 This is an example of an tlang file:
 
 ```tlang
-import package1
-import package2
+use myFile1
 
 expose *
 
