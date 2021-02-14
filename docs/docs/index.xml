@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on TLang</title>
-    <link>https://tlang.sorne.io/docs/</link>
+    <link>https://tlang.dev/docs/</link>
     <description>Recent content in Docs on TLang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
     
-        <atom:link href="https://tlang.sorne.io/docs/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://tlang.dev/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>Getting Started</title>
-        <link>https://tlang.sorne.io/docs/gettingstarted/</link>
+        <link>https://tlang.dev/docs/gettingstarted/</link>
         <pubDate>Tue, 28 Jan 2020 00:34:39 +0900</pubDate>
         
-        <guid>https://tlang.sorne.io/docs/gettingstarted/</guid>
+        <guid>https://tlang.dev/docs/gettingstarted/</guid>
         <description></description>
       </item>
       
       <item>
         <title>Specifications</title>
-        <link>https://tlang.sorne.io/docs/specs/</link>
+        <link>https://tlang.dev/docs/specs/</link>
         <pubDate>Tue, 28 Jan 2020 00:36:39 +0900</pubDate>
         
-        <guid>https://tlang.sorne.io/docs/specs/</guid>
+        <guid>https://tlang.dev/docs/specs/</guid>
         <description></description>
       </item>
       
       <item>
         <title>Libraries</title>
-        <link>https://tlang.sorne.io/docs/libraries/</link>
+        <link>https://tlang.dev/docs/libraries/</link>
         <pubDate>Tue, 28 Jan 2020 00:36:39 +0900</pubDate>
         
-        <guid>https://tlang.sorne.io/docs/libraries/</guid>
+        <guid>https://tlang.dev/docs/libraries/</guid>
         <description></description>
       </item>
       

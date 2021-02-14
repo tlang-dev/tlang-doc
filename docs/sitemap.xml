@@ -3,102 +3,127 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tlang.sorne.io/docs/specs/overview/</loc>
+    <loc>https://tlang.dev/docs/specs/overview/</loc>
     <lastmod>2020-01-28T00:36:39+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/docs/gettingstarted/</loc>
+    <loc>https://tlang.dev/docs/gettingstarted/</loc>
     <lastmod>2020-01-28T00:34:39+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/docs/gettingstarted/installation/</loc>
+    <loc>https://tlang.dev/docs/gettingstarted/installation/</loc>
     <lastmod>2020-01-28T00:34:13+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/features/multi-languages/</loc>
+    <loc>https://tlang.dev/features/multi-languages/</loc>
     <lastmod>2020-01-28T00:08:29+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/docs/libraries/internal/</loc>
+    <loc>https://tlang.dev/docs/libraries/internal/io/file/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/docs/specs/</loc>
+    <loc>https://tlang.dev/docs/libraries/internal/generator/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/docs/libraries/internal/generator/generator/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/docs/libraries/internal/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/docs/libraries/internal/io/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/docs/libraries/internal/io/terminal/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/docs/specs/</loc>
     <lastmod>2020-01-28T00:36:39+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/docs/gettingstarted/helloworld/</loc>
+    <loc>https://tlang.dev/docs/gettingstarted/helloworld/</loc>
     <lastmod>2020-01-28T00:34:41+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/features/simple/</loc>
+    <loc>https://tlang.dev/features/simple/</loc>
     <lastmod>2020-01-28T00:08:29+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/docs/specs/model/</loc>
+    <loc>https://tlang.dev/docs/specs/model/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/docs/libraries/tbags/</loc>
+    <loc>https://tlang.dev/docs/libraries/tbags/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/docs/libraries/</loc>
+    <loc>https://tlang.dev/docs/libraries/</loc>
     <lastmod>2020-01-28T00:36:39+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/features/many-templates/</loc>
+    <loc>https://tlang.dev/features/many-templates/</loc>
     <lastmod>2020-01-28T00:08:29+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/docs/specs/helper/</loc>
+    <loc>https://tlang.dev/docs/specs/helper/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/features/ide-support/</loc>
+    <loc>https://tlang.dev/features/ide-support/</loc>
     <lastmod>2020-01-28T00:08:29+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/docs/specs/template/</loc>
+    <loc>https://tlang.dev/docs/specs/template/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/docs/specs/package/</loc>
+    <loc>https://tlang.dev/docs/specs/package/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/features/</loc>
+    <loc>https://tlang.dev/features/</loc>
     <lastmod>2020-01-28T00:08:29+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/</loc>
+    <loc>https://tlang.dev/</loc>
     <lastmod>2020-01-26T04:15:05+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/docs/</loc>
+    <loc>https://tlang.dev/docs/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.sorne.io/blog/</loc>
+    <loc>https://tlang.dev/blog/</loc>
   </url>
   
 </urlset>

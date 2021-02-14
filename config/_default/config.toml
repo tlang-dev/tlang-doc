@@ -1,5 +1,5 @@
-baseURL = "https://tlang.sorne.io"
-title = "Hugo Zdoc Theme"
+baseURL = "https://tlang.dev"
+title = "TLang"
 theme = "zdoc"
 
 defaultContentLanguage = "en"

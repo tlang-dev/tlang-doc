@@ -6,4 +6,68 @@ draft: false
 weight: 2
 ---
 
-*Markdown here*
+## Classic "Hello, World"
+
+Main.tlang:
+```lang
+use io.Terminal
+
+helper {
+
+    func main() {
+        Terminal.println("Hello, World !")
+    }
+}
+```
+
+manifest.yaml
+```yaml
+name: HelloWorld
+project: IntegrationTests
+organisation: TLang
+version: 1.0.0
+stability: alpha
+releaseNumber: 1
+dependencies:
+  - TLang/IO/Terminal 1.0.0:alpha:1 io
+```
+
+## Generate "Hello, World" in Scala
+
+Main.tlang:
+```lang
+use io.Terminal
+use gen.Generator
+
+helper {
+
+    func main() {
+        Terminal.println(Generator.generate(helloWorld()))
+    }
+}
+
+tmpl[scala] helloWorld {
+    pkg hello_world
+
+    impl HelloWorld {
+        func main(args: String[]) {
+            println("Hello, World!")
+        }
+    }
+}
+```
+
+manifest.yaml
+```yaml
+name: HelloWorldInScala
+project: IntegrationTests
+organisation: TLang
+version: 1.0.0
+stability: alpha
+releaseNumber: 1
+dependencies:
+  - TLang/IO/Terminal 1.0.0:alpha:1 io
+  - TLang/Generator/Generator 1.0.0:alpha:1 gen
+```
+
+

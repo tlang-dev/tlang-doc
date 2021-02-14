@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Helper on TLang</title>
-    <link>https://tlang.sorne.io/docs/specs/helper/</link>
+    <link>https://tlang.dev/docs/specs/helper/</link>
     <description>Recent content in Helper on TLang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
     
-        <atom:link href="https://tlang.sorne.io/docs/specs/helper/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://tlang.dev/docs/specs/helper/index.xml" rel="self" type="application/rss+xml" />
     
     
     

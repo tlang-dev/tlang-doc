@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Internal on TLang</title>
-    <link>https://tlang.dev/docs/libraries/internal/</link>
-    <description>Recent content in Internal on TLang</description>
+    <title>IO on TLang</title>
+    <link>https://tlang.dev/docs/libraries/internal/io/</link>
+    <description>Recent content in IO on TLang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
     
-        <atom:link href="https://tlang.dev/docs/libraries/internal/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://tlang.dev/docs/libraries/internal/io/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
-        <title>Generator</title>
-        <link>https://tlang.dev/docs/libraries/internal/generator/</link>
+        <title>File</title>
+        <link>https://tlang.dev/docs/libraries/internal/io/file/</link>
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
-        <guid>https://tlang.dev/docs/libraries/internal/generator/</guid>
+        <guid>https://tlang.dev/docs/libraries/internal/io/file/</guid>
         <description></description>
       </item>
       
       <item>
-        <title>IO</title>
-        <link>https://tlang.dev/docs/libraries/internal/io/</link>
+        <title>Terminal</title>
+        <link>https://tlang.dev/docs/libraries/internal/io/terminal/</link>
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
-        <guid>https://tlang.dev/docs/libraries/internal/io/</guid>
+        <guid>https://tlang.dev/docs/libraries/internal/io/terminal/</guid>
         <description></description>
       </item>
       

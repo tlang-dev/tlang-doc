@@ -2,80 +2,109 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TLang</title>
-    <link>https://tlang.sorne.io/</link>
+    <link>https://tlang.dev/</link>
     <description>Recent content on TLang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate>
     
-        <atom:link href="https://tlang.sorne.io/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://tlang.dev/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>Overview</title>
-        <link>https://tlang.sorne.io/docs/specs/overview/</link>
+        <link>https://tlang.dev/docs/specs/overview/</link>
         <pubDate>Tue, 28 Jan 2020 00:36:39 +0900</pubDate>
         
-        <guid>https://tlang.sorne.io/docs/specs/overview/</guid>
+        <guid>https://tlang.dev/docs/specs/overview/</guid>
         <description>The TLang code is written in .tlang files. They are composed of different parts that are not mandatory. The first part is the context of the file, mainly the packages that are imported or exposed. More will be said latter.
-Then in the sections of the file are described. There are three types:
- model, it represents the objects and the structure of your program helper, it contains the logic. Everything that will be executed is written in this section template, it defines the templates that will be used to generate the final code  You don&amp;rsquo;t need to use all of them in every file.</description>
+Then in the sections of the file are described. There are three types: * model, it represents the objects and the structure of your program * helper, it contains the logic.</description>
       </item>
       
       <item>
         <title>Installation</title>
-        <link>https://tlang.sorne.io/docs/gettingstarted/installation/</link>
+        <link>https://tlang.dev/docs/gettingstarted/installation/</link>
         <pubDate>Tue, 28 Jan 2020 00:34:13 +0900</pubDate>
         
-        <guid>https://tlang.sorne.io/docs/gettingstarted/installation/</guid>
+        <guid>https://tlang.dev/docs/gettingstarted/installation/</guid>
         <description>Markdown here</description>
       </item>
       
       <item>
         <title>Multi-languages</title>
-        <link>https://tlang.sorne.io/features/multi-languages/</link>
+        <link>https://tlang.dev/features/multi-languages/</link>
         <pubDate>Tue, 28 Jan 2020 00:08:29 +0900</pubDate>
         
-        <guid>https://tlang.sorne.io/features/multi-languages/</guid>
+        <guid>https://tlang.dev/features/multi-languages/</guid>
         <description>Multi-languages</description>
       </item>
       
       <item>
+        <title>File</title>
+        <link>https://tlang.dev/docs/libraries/internal/io/file/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/libraries/internal/io/file/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Generator</title>
+        <link>https://tlang.dev/docs/libraries/internal/generator/generator/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/libraries/internal/generator/generator/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Terminal</title>
+        <link>https://tlang.dev/docs/libraries/internal/io/terminal/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/libraries/internal/io/terminal/</guid>
+        <description></description>
+      </item>
+      
+      <item>
         <title>Hello world !</title>
-        <link>https://tlang.sorne.io/docs/gettingstarted/helloworld/</link>
+        <link>https://tlang.dev/docs/gettingstarted/helloworld/</link>
         <pubDate>Tue, 28 Jan 2020 00:34:41 +0900</pubDate>
         
-        <guid>https://tlang.sorne.io/docs/gettingstarted/helloworld/</guid>
-        <description>Markdown here</description>
+        <guid>https://tlang.dev/docs/gettingstarted/helloworld/</guid>
+        <description>Classic &amp;ldquo;Hello, World&amp;rdquo; Main.tlang:
+use io.Terminal helper { func main() { Terminal.println(&amp;quot;Hello, World !&amp;quot;) } }  manifest.yaml
+name: HelloWorld project: IntegrationTests organisation: TLang version: 1.0.0 stability: alpha releaseNumber: 1 dependencies: - TLang/IO/Terminal 1.0.0:alpha:1 io  Generate &amp;ldquo;Hello, World&amp;rdquo; in Scala Main.tlang:
+use io.Terminal use gen.Generator helper { func main() { Terminal.println(Generator.generate(helloWorld())) } } tmpl[scala] helloWorld { pkg hello_world impl HelloWorld { func main(args: String[]) { println(&amp;quot;Hello, World!&amp;quot;) } } }  manifest.</description>
       </item>
       
       <item>
         <title>Simple to learn</title>
-        <link>https://tlang.sorne.io/features/simple/</link>
+        <link>https://tlang.dev/features/simple/</link>
         <pubDate>Tue, 28 Jan 2020 00:08:29 +0900</pubDate>
         
-        <guid>https://tlang.sorne.io/features/simple/</guid>
+        <guid>https://tlang.dev/features/simple/</guid>
         <description>Simple to learn</description>
       </item>
       
       <item>
         <title>Many templates</title>
-        <link>https://tlang.sorne.io/features/many-templates/</link>
+        <link>https://tlang.dev/features/many-templates/</link>
         <pubDate>Tue, 28 Jan 2020 00:08:29 +0900</pubDate>
         
-        <guid>https://tlang.sorne.io/features/many-templates/</guid>
+        <guid>https://tlang.dev/features/many-templates/</guid>
         <description>Many templates</description>
       </item>
       
       <item>
         <title>IDE support</title>
-        <link>https://tlang.sorne.io/features/ide-support/</link>
+        <link>https://tlang.dev/features/ide-support/</link>
         <pubDate>Tue, 28 Jan 2020 00:08:29 +0900</pubDate>
         
-        <guid>https://tlang.sorne.io/features/ide-support/</guid>
+        <guid>https://tlang.dev/features/ide-support/</guid>
         <description>IDE support</description>
       </item>
       
