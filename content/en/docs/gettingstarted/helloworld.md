@@ -9,7 +9,7 @@ weight: 2
 ## Classic "Hello, World"
 
 Main.tlang:
-```lang
+```tlang
 use io.Terminal
 
 helper {

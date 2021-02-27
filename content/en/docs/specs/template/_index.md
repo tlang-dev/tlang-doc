@@ -13,11 +13,49 @@ If you create your own template you need to know the destination language to mak
 
 ## Imports, uses, requires, ...
 
+```tlang
+tmpl[java] myTemplate() {
+use java.util.Date 
+}
+```
+
 ## Variables
+
+```tlang
+tmpl[java] myTemplate() {
+    var myVar:String = "The value"
+
+    var[public static final] MY_CONST = "The constant value"
+}
+```
 
 ## Classes, traits, interfaces, ...
 
+```tlang
+tmpl[java] myTemplate() {
+    impl[public interface] myInterface {
+    }
+
+    impl[public class] myClass for myInterface {
+    }
+}
+```
+
 ## Functions and methods
+
+```tlang
+tmpl[java] myTemplate() {
+    impl[public interface] myInterface {
+        func myFunc(param1: String, param2: Int)
+    }
+
+    impl[public class] myClass {
+        func myFunc(param1: String[], param2: String):Int {
+	    return 42
+        }
+    }
+}
+```
 
 ## Conditions
 
