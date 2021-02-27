@@ -1926,11 +1926,45 @@ A template is simply taken and transformed into another language without interpr
 
 <h2 id="imports-uses-requires">Imports, uses, requires, &hellip;</h2>
 
+<pre><code class="language-tlang">tmpl[java] myTemplate() {
+use java.util.Date 
+}
+</code></pre>
+
 <h2 id="variables">Variables</h2>
+
+<pre><code class="language-tlang">tmpl[java] myTemplate() {
+    var myVar:String = &quot;The value&quot;
+
+    var[public static final] MY_CONST = &quot;The constant value&quot;
+}
+</code></pre>
 
 <h2 id="classes-traits-interfaces">Classes, traits, interfaces, &hellip;</h2>
 
+<pre><code class="language-tlang">tmpl[java] myTemplate() {
+    impl[public interface] myInterface {
+    }
+
+    impl[public class] myClass for myInterface {
+    }
+}
+</code></pre>
+
 <h2 id="functions-and-methods">Functions and methods</h2>
+
+<pre><code class="language-tlang">tmpl[java] myTemplate() {
+    impl[public interface] myInterface {
+        func myFunc(param1: String, param2: Int)
+    }
+
+    impl[public class] myClass {
+        func myFunc(param1: String[], param2: String):Int {
+	    return 42
+        }
+    }
+}
+</code></pre>
 
 <h2 id="conditions">Conditions</h2>
 
