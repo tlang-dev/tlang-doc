@@ -20,7 +20,11 @@
         <pubDate>Tue, 28 Jan 2020 00:34:13 +0900</pubDate>
         
         <guid>https://tlang.dev/docs/gettingstarted/installation/</guid>
-        <description>Markdown here</description>
+        <description>Make sure that you have java version 11 or above installed.
+Download the latest version of TLang https://github.com/tlang-dev/tlang/releases
+Then run the jar:
+1  java -jar tlang.jar version   Set env We advise you to set an environment variable to run the jar. in the next chapters we will use the command tlang instead of java -jar tlang.jar
+Unix On unix systems add a path to your PATH variable in your shell config file.</description>
       </item>
       
       <item>

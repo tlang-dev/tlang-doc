@@ -35,7 +35,7 @@ dependencies:
 ## Generate "Hello, World" in Scala
 
 Main.tlang:
-```lang
+```tlang
 use io.Terminal
 use gen.Generator
 
@@ -70,4 +70,7 @@ dependencies:
   - TLang/Generator/Generator 1.0.0:alpha:1 gen
 ```
 
-
+To run this example, in your favourite terminal, go to the folder where you saved these files and then run:
+```shell
+tlang run .
+```
