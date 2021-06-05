@@ -21,7 +21,8 @@
         
         <guid>https://tlang.dev/docs/specs/overview/</guid>
         <description>The TLang code is written in .tlang files. They are composed of different parts that are not mandatory. The first part is the context of the file, mainly the packages that are imported or exposed. More will be said latter.
-Then in the sections of the file are described. There are three types: * model, it represents the objects and the structure of your program * helper, it contains the logic.</description>
+Then in the sections of the file are described. There are three types:
+ model, it represents the objects and the structure of your program helper, it contains the logic. Everything that will be executed is written in this section template, it defines the templates that will be used to generate the final code  You don&amp;rsquo;t need to use all of them in every file.</description>
       </item>
       
       <item>
@@ -30,7 +31,9 @@ Then in the sections of the file are described. There are three types: * model, 
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
         <guid>https://tlang.dev/docs/specs/model/</guid>
-        <description>The model is where your will define your types and most of your variables. Those variables may also describe the architecture of your program. There are five types of variables: * the primitives such as string, int or bool * the arrays * the entities that can contain other variables of all types. * the function declarations that define the parameters and the return types * the references that are short cuts to the other types</description>
+        <description>The model is where your will define your types and most of your variables. Those variables may also describe the architecture of your program.
+There are five types of variables:
+ the primitives such as string, long or bool the arrays the entities that can contain other variables of all types. the function declarations that define the parameters and the return types the references that are short cuts to the other types  Entities An entity is both a type and a variable (or an implementation).</description>
       </item>
       
       <item>
@@ -40,7 +43,8 @@ Then in the sections of the file are described. There are three types: * model, 
         
         <guid>https://tlang.dev/docs/specs/helper/</guid>
         <description>The helper is the logic part, this is where everything is executed. It contains only functions that are static and therefore, there are no global variables inside an helper. However, a function can have access to variables inside a model segment because they are static and immutable as well.
-Functions helper { func myFunc(param1 String, Int, param3 AnEntity[], (Int, String):(Bool)) { } }  The function &amp;ldquo;myFunc&amp;rdquo; takes four parameters: 1) param1 of type String 2) anonymous parameter of type Int 3) param3, an array of entities &amp;ldquo;AnEntity&amp;rdquo; 4) anonymous parameter which is a function with two parameters (Int and String) and returns a Bool</description>
+Functions helper {func myFunc(param1 String, param2 Int, param3 AnEntity[]) {}}The function &amp;ldquo;myFunc&amp;rdquo; takes three parameters:
+ param1 of type String param2 of type Int param3, an array of entities &amp;ldquo;AnEntity&amp;rdquo;  Currying helper {func myFunc(param1 String, param2 Int)(param3 Bool, param4 Double) {}}Currying let you define multiple sets of parameters which are very helpful to simplify the call of a function.</description>
       </item>
       
       <item>
@@ -49,7 +53,8 @@ Functions helper { func myFunc(param1 String, Int, param3 AnEntity[], (Int, Stri
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
         <guid>https://tlang.dev/docs/specs/template/</guid>
-        <description>The template section is a bit special because it is not interpreted the same way as the other sections. As long as it is grammatically correct it&amp;rsquo;s fine, even if it doesn&amp;rsquo;t make any sense. A template is simply taken and transformed into another language without interpreting or attempting to make any sense if the destination language. The generated code might not compile.
+        <description>The template section is a bit special because it is not interpreted the same way as the other sections. As long as it is grammatically correct it&amp;rsquo;s fine, even if it doesn&amp;rsquo;t make any sense.
+A template is simply taken and transformed into another language without interpreting or attempting to make any sense if the destination language. The generated code might not compile.
 If you create your own template you need to know the destination language to make compilable and executable code.</description>
       </item>
       
@@ -60,7 +65,7 @@ If you create your own template you need to know the destination language to mak
         
         <guid>https://tlang.dev/docs/specs/package/</guid>
         <description>A package is represented by a folder in the file system. It has access to only one level, meaning the folder inside the current folder. Of course you get access to all files in the same folder.
-One level  MyCurrentFolder |- File1.tlang |- File2.tlang |- FirstFolderInside | |- File11.tlang | |- File12.tlang |- SecondFolderInside |- File21.tlang |- File22.tlang  Based on the above hierarchy, assuming that your are working in File1.</description>
+One level  MyCurrentFolder|- File1.tlang|- File2.tlang|- FirstFolderInside| |- File11.tlang| |- File12.tlang|- SecondFolderInside|- File21.tlang|- File22.tlangBased on the above hierarchy, assuming that your are working in File1.</description>
       </item>
       
     

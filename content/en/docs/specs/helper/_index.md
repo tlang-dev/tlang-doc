@@ -12,20 +12,16 @@ The helper is the logic part, this is where everything is executed. It contains 
 
 ```tlang
 helper {
-    func myFunc(param1 String, Int, param3 AnEntity[], (Int, String):(Bool)) {
+    func myFunc(param1 String, param2 Int, param3 AnEntity[]) {
         
     }
 }
 ```
 
-The function "myFunc" takes four parameters:
+The function "myFunc" takes three parameters:
 1) param1 of type String
-2) anonymous parameter of type Int
+2) param2 of type Int
 3) param3, an array of entities "AnEntity"
-4) anonymous parameter which is a function with two parameters (Int and String) and returns a Bool
-
-You can use an anonymous parameter with underscore and the parameter position. Example : _2 for the second parameter and _4 for the fourth parameter.
-Then, you can call the function this way: _4(1337, "Foo bar !")
 
 ### Currying
 
@@ -91,3 +87,15 @@ helper {
     }
 }
 ```
+## Operations
+
+```tlang
+helper {
+    func myFunc() {
+        let myString = "Hello, " + "World!"
+
+        let total = 1000 + 300 + 30 + 7
+    }
+}
+```
+

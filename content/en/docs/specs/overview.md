@@ -20,7 +20,7 @@ This is an example of an tlang file:
 ```tlang
 use myFile1
 
-expose *
+expose myFunc
 
 model {
 
@@ -30,7 +30,7 @@ helper {
 
 }
 
-tmpl {
+tmpl[java] {
 
 }
 

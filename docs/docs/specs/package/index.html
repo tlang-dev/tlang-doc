@@ -9,17 +9,17 @@
 
 
   
-  <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
+  <script defer src="/js/fuse.min.c4bee9a8d44273d6154fe86006923d4131eb2e8069d8897687137c6f37f553e3.js"></script>
 
 
 
-<script src="/js/enquire.min.dfb99dee1e029d51d6cfb672d847929890b1585402de17f5ed092edd72a688b4.js"></script>
+<script src="/js/enquire.min.aa37bdcb743826eecdae5c5d177fc7d6552340f1b4378ffaa9c82b2c6111400b.js"></script>
 
-<script defer src="/js/lazysizes.min.31dd6a2d3a1ec0f78a8df007535cf23f03aeb5c70f026e6d6a19dac3b3acc340.js"></script>
+<script defer src="/js/lazysizes.min.5e11d056075a05065b9c0bfec44084a113fc2976c2952ec804dedb61c7662db9.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js"></script>
+<script defer src="/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
 
 <script>
   "use strict";
@@ -1084,7 +1084,7 @@
 <meta property="og:url" content="https://tlang.dev/docs/specs/package/">
 <meta property="og:type" content="website">
 
-<meta name="generator" content="Hugo 0.59.0" />
+<meta name="generator" content="Hugo 0.83.1" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://tlang.dev/docs/specs/package/">
@@ -1917,12 +1917,8 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    
-
-<p>A package is represented by a folder in the file system. It has access to only one level, meaning the folder inside the current folder. Of course you get access to all files in the same folder.</p>
-
+    <p>A package is represented by a folder in the file system. It has access to only one level, meaning the folder inside the current folder. Of course you get access to all files in the same folder.</p>
 <h2 id="one-level">One level</h2>
-
 <pre><code>    MyCurrentFolder
     |- File1.tlang
     |- File2.tlang
@@ -1932,14 +1928,12 @@
     |- SecondFolderInside
        |- File21.tlang
        |- File22.tlang
-</code></pre>
-
-<p>Based on the above hierarchy, assuming that your are working in File1.tlang and want to access functions in File2.tlang, File11.tlang, File21.tlang you can do the following:
-* to access functions in File2.tlang you don&rsquo;t need to import or expose anything, File2.func1() will work
-* to access functions in File11.tlang you need to expose first the functions in</p>
-
+</code></pre><p>Based on the above hierarchy, assuming that your are working in File1.tlang and want to access functions in File2.tlang, File11.tlang, File21.tlang you can do the following:</p>
+<ul>
+<li>to access functions in File2.tlang you don&rsquo;t need to import or expose anything, File2.func1() will work</li>
+<li>to access functions in File11.tlang you need to expose first the functions in</li>
+</ul>
 <h2 id="two-levels-and-more">Two levels and more</h2>
-
 <pre><code>    MyCurrentFolder
     |- File1.tlang
     |- File2.tlang
@@ -1949,10 +1943,7 @@
        |- SubSubFolder
           |- File111.tlang
           |- File112.tlang
-</code></pre>
-
-<h2 id="other-folders-inside-same-parent">Other folders inside same parent</h2>
-
+</code></pre><h2 id="other-folders-inside-same-parent">Other folders inside same parent</h2>
 <pre><code>    MyCurrentFolder
     |- File1.tlang
     |- File2.tlang
@@ -1960,7 +1951,6 @@
     |- File3.tlang
     |- File4.tlang
 </code></pre>
-
   </article>
 </div>
       
@@ -2292,7 +2282,7 @@
       <div class="lmr">
         
           <p class="caption">
-            &copy;2021, All Rights Reserved
+            ©2021, All Rights Reserved
           </p>
           
         

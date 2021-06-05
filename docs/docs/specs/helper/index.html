@@ -9,17 +9,17 @@
 
 
   
-  <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
+  <script defer src="/js/fuse.min.c4bee9a8d44273d6154fe86006923d4131eb2e8069d8897687137c6f37f553e3.js"></script>
 
 
 
-<script src="/js/enquire.min.dfb99dee1e029d51d6cfb672d847929890b1585402de17f5ed092edd72a688b4.js"></script>
+<script src="/js/enquire.min.aa37bdcb743826eecdae5c5d177fc7d6552340f1b4378ffaa9c82b2c6111400b.js"></script>
 
-<script defer src="/js/lazysizes.min.31dd6a2d3a1ec0f78a8df007535cf23f03aeb5c70f026e6d6a19dac3b3acc340.js"></script>
+<script defer src="/js/lazysizes.min.5e11d056075a05065b9c0bfec44084a113fc2976c2952ec804dedb61c7662db9.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js"></script>
+<script defer src="/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
 
 <script>
   "use strict";
@@ -1084,7 +1084,7 @@
 <meta property="og:url" content="https://tlang.dev/docs/specs/helper/">
 <meta property="og:type" content="website">
 
-<meta name="generator" content="Hugo 0.59.0" />
+<meta name="generator" content="Hugo 0.83.1" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://tlang.dev/docs/specs/helper/">
@@ -1917,44 +1917,29 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    
-
-<p>The helper is the logic part, this is where everything is executed. It contains only functions that are static and therefore, there are no global variables inside an helper. However, a function can have access to variables inside a model segment because they are static and immutable as well.</p>
-
+    <p>The helper is the logic part, this is where everything is executed. It contains only functions that are static and therefore, there are no global variables inside an helper. However, a function can have access to variables inside a model segment because they are static and immutable as well.</p>
 <h2 id="functions">Functions</h2>
-
-<pre><code class="language-tlang">helper {
-    func myFunc(param1 String, Int, param3 AnEntity[], (Int, String):(Bool)) {
+<pre><code class="language-tlang" data-lang="tlang">helper {
+    func myFunc(param1 String, param2 Int, param3 AnEntity[]) {
         
     }
 }
-</code></pre>
-
-<p>The function &ldquo;myFunc&rdquo; takes four parameters:
-1) param1 of type String
-2) anonymous parameter of type Int
-3) param3, an array of entities &ldquo;AnEntity&rdquo;
-4) anonymous parameter which is a function with two parameters (Int and String) and returns a Bool</p>
-
-<p>You can use an anonymous parameter with underscore and the parameter position. Example : _2 for the second parameter and _4 for the fourth parameter.
-Then, you can call the function this way: _4(1337, &ldquo;Foo bar !&rdquo;)</p>
-
+</code></pre><p>The function &ldquo;myFunc&rdquo; takes three parameters:</p>
+<ol>
+<li>param1 of type String</li>
+<li>param2 of type Int</li>
+<li>param3, an array of entities &ldquo;AnEntity&rdquo;</li>
+</ol>
 <h3 id="currying">Currying</h3>
-
-<pre><code class="language-tlang">helper {
+<pre><code class="language-tlang" data-lang="tlang">helper {
     func myFunc(param1 String, param2 Int)(param3 Bool, param4 Double) {
         
     }
 }
-</code></pre>
-
-<p>Currying let you define multiple sets of parameters which are very helpful to simplify the call of a function. The main scenario is to use a dedicated set of parameters for the references when setting an entity. This way, only one set of parameters would be needed when calling the function. This is the how dependencies can be injected. This is an advanced topic and it will be covered later on in more details.</p>
-
+</code></pre><p>Currying let you define multiple sets of parameters which are very helpful to simplify the call of a function. The main scenario is to use a dedicated set of parameters for the references when setting an entity. This way, only one set of parameters would be needed when calling the function. This is the how dependencies can be injected. This is an advanced topic and it will be covered later on in more details.</p>
 <p>Inside the function, you will use the parameters as if there was just one set of parameters which means than they all require a unique name.</p>
-
 <h2 id="variables">Variables</h2>
-
-<pre><code class="language-tlang">helper {
+<pre><code class="language-tlang" data-lang="tlang">helper {
     func myFunc() {
         let myString = &quot;String value&quot;
     
@@ -1965,11 +1950,8 @@ Then, you can call the function this way: _4(1337, &ldquo;Foo bar !&rdquo;)</p>
         let myDouble = 1337.42
     }
 }
-</code></pre>
-
-<h2 id="conditions">Conditions</h2>
-
-<pre><code class="language-tlang">helper {
+</code></pre><h2 id="conditions">Conditions</h2>
+<pre><code class="language-tlang" data-lang="tlang">helper {
     func myFunc() {
         if(((myVar == myVar2 &amp;&amp; myVar3) || myVar4) &amp;&amp; myVar5) {
 
@@ -1978,11 +1960,8 @@ Then, you can call the function this way: _4(1337, &ldquo;Foo bar !&rdquo;)</p>
         }
     }
 }
-</code></pre>
-
-<h2 id="loops">Loops</h2>
-
-<pre><code class="language-tlang">helper {
+</code></pre><h2 id="loops">Loops</h2>
+<pre><code class="language-tlang" data-lang="tlang">helper {
     func myFunc() {
         for(i 0 to 10) {
         
@@ -1998,8 +1977,15 @@ Then, you can call the function this way: _4(1337, &ldquo;Foo bar !&rdquo;)</p>
         }
     }
 }
-</code></pre>
+</code></pre><h2 id="operations">Operations</h2>
+<pre><code class="language-tlang" data-lang="tlang">helper {
+    func myFunc() {
+        let myString = &quot;Hello, &quot; + &quot;World!&quot;
 
+        let total = 1000 + 300 + 30 + 7
+    }
+}
+</code></pre>
   </article>
 </div>
       
@@ -2331,7 +2317,7 @@ Then, you can call the function this way: _4(1337, &ldquo;Foo bar !&rdquo;)</p>
       <div class="lmr">
         
           <p class="caption">
-            &copy;2021, All Rights Reserved
+            ©2021, All Rights Reserved
           </p>
           
         

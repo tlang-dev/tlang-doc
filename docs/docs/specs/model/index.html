@@ -9,17 +9,17 @@
 
 
   
-  <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
+  <script defer src="/js/fuse.min.c4bee9a8d44273d6154fe86006923d4131eb2e8069d8897687137c6f37f553e3.js"></script>
 
 
 
-<script src="/js/enquire.min.dfb99dee1e029d51d6cfb672d847929890b1585402de17f5ed092edd72a688b4.js"></script>
+<script src="/js/enquire.min.aa37bdcb743826eecdae5c5d177fc7d6552340f1b4378ffaa9c82b2c6111400b.js"></script>
 
-<script defer src="/js/lazysizes.min.31dd6a2d3a1ec0f78a8df007535cf23f03aeb5c70f026e6d6a19dac3b3acc340.js"></script>
+<script defer src="/js/lazysizes.min.5e11d056075a05065b9c0bfec44084a113fc2976c2952ec804dedb61c7662db9.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js"></script>
+<script defer src="/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
 
 <script>
   "use strict";
@@ -1084,7 +1084,7 @@
 <meta property="og:url" content="https://tlang.dev/docs/specs/model/">
 <meta property="og:type" content="website">
 
-<meta name="generator" content="Hugo 0.59.0" />
+<meta name="generator" content="Hugo 0.83.1" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://tlang.dev/docs/specs/model/">
@@ -1917,61 +1917,55 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    
-
-<p>The model is where your will define your types and most of your variables. Those variables may also describe the architecture of your program.
-There are five types of variables:
-* the primitives such as string, int or bool
-* the arrays
-* the entities that can contain other variables of all types.
-* the function declarations that define the parameters and the return types
-* the references that are short cuts to the other types</p>
-
+    <p>The model is where your will define your types and most of your variables. Those variables may also describe the architecture of your program.<br />
+There are five types of variables:</p>
+<ul>
+<li>the primitives such as string, long or bool</li>
+<li>the arrays</li>
+<li>the entities that can contain other variables of all types.</li>
+<li>the function declarations that define the parameters and the return types</li>
+<li>the references that are short cuts to the other types</li>
+</ul>
 <h2 id="entities">Entities</h2>
-
-<p>An entity is both a type and a variable (or an implementation). When it&rsquo;s a type, it defines what can be set inside. It could be seen as an interface or a trait in other languages.</p>
-
-<p>First we define or set a new type:</p>
-
-<pre><code class="language-tlang">model {
-    set MyEntity(param1 String, param2 Int[], param3 AnotherEntity) {
-        attr1 String,
-        attr2 AThirdEntity[],
-        attr3 (String, Int[]): (String),
-        attr4 impl{
-            attr41 String
-        } 
-        attr5 &amp;attr4.attr41
-        attr6 (param61 Bool) {
-            attr61 String
-        },
-        attr7 impl[]
+<p>An entity is both a type and a variable (or an implementation). When it&rsquo;s a type, it defines what can be set inside. It could be seen as an interface or a trait in other languages. The type of an entity is called the model.</p>
+<h3 id="model">Model</h3>
+<p>First let&rsquo;s define a simple model called MyModel:</p>
+<pre><code class="language-tlang" data-lang="tlang">model {
+    set MyModel {
+        attr1: String,
+        attr2: Long,
+        attr3: AnEntity,
+        attr4: Double[]
     }
 }
 
-</code></pre>
-
-<p>MyEntity defines three parameters and seven attributes. Those three parameters makes MyEntity a model within a model. MyEntity is a model because it can be and will be implemented by a variable. The variables will be required to implement the seven attributes. However, the parameters will be implemented by the attributes of type &ldquo;impl&rdquo; defined by the attributes attr4 and attr7. In the next section, we are going to implement this model which should make it easier to understand.</p>
-
-<p>With one entity, it is possible to represent the whole structure of a program that would require many interfaces and classes in other languages.</p>
-
-<h3 id="the-parameters">The parameters</h3>
-
+</code></pre><p>MyModel defines four attributes, it is a model because it can be and will be implemented by variables (entities). The entity will be required to implement the four attributes.</p>
+<h4 id="the-attributes">The attributes</h4>
+<p>This model has four attributes:</p>
 <ul>
-<li>param1 is of type String which is a simple chain of characters</li>
-<li>param2 is of type Int[] which is an array of integers</li>
-<li>param3 is of type AnotherEntity which is another entity such as MyEntity (not defined in this example)</li>
+<li>attr1 is of type String which is a simple chain of characters</li>
+<li>attr2 is of type Long which is an integer</li>
+<li>attr3 is of type AnEntity which has to be a model declared somewhere else</li>
+<li>attr4 is an array of Doubles which are real numbers, so an array of real numbers.</li>
 </ul>
+<h4 id="entity-using-mymodel">Entity using &ldquo;MyModel&rdquo;</h4>
+<p>Let&rsquo;s see how an entity using our model MyModel could look like:</p>
+<pre><code class="language-tlang" data-lang="tlang">model {
+    let myEntity: MyModel = {
+        attr1=&quot;Oh! It's so good, it's so good, it's so good, it's so good, it's so good!&quot;,
+        attr2= 1977,
+        attr3= {
+            subAttr1 = &quot;We pretend this entity requires a string attribute&quot;
+        },
+        attr4= [3.1415, 42.0, 0.2357111317192329313741]
+    }
+}
 
-<h2 id="variables">Variables</h2>
-
+</code></pre><h2 id="variables">Variables</h2>
 <p>It is actually a bit misleading to call them variables as they cannot change. They are immutable variables. You can write them once, read them and change their value only when you affect them to another variable.</p>
-
 <p>The power of immutable variables is that they prevent many side effects. If you cannot change the value, you cannot alter the behaviour of another part of your program.</p>
-
 <h3 id="primitives">Primitives</h3>
-
-<pre><code class="language-tlang">model {
+<pre><code class="language-tlang" data-lang="tlang">model {
     let myString = &quot;String value&quot;
     
     let myInt = 10
@@ -1980,41 +1974,83 @@ There are five types of variables:
 
     let myDouble = 1337.42
 }
-</code></pre>
-
-<h3 id="arrays">Arrays</h3>
-
-<pre><code class="language-tlang">model {
+</code></pre><h3 id="arrays">Arrays</h3>
+<pre><code class="language-tlang" data-lang="tlang">model {
     let myStrings String[] = [&quot;String1&quot;, &quot;String2&quot;, &quot;String3&quot;]
 
-    let myInts Int[] = [1, 2, 3, 4, 5]
+    let myLongs Long[] = [1, 2, 3, 4, 5]
 
     let myMap String[] = [&quot;key1&quot; &quot;Value1&quot;, &quot;key2&quot; &quot;Value2&quot;, &quot;key3&quot; &quot;Value3&quot;]
 }
-</code></pre>
-
-<h3 id="entities-1">Entities</h3>
-
-<pre><code class="language-tlang">model {
-    let myFirstEntity MyEntity(&quot;Param1&quot;, [1, 2], param3 AnotherEntity {}) {
+</code></pre><h3 id="entities-1">Entities</h3>
+<pre><code class="language-tlang" data-lang="tlang">model {
+    let myFirstEntity: MyModel = {
         var1 &quot;Var1&quot;,
-        var2 [AThirdEntity{}, AThirdEntity{}, AThirdEntity{}],
-        var3 myFuncDefinedInHelper(#, [42,1337]),
-        var4 impl(&quot;Param1&quot;, [3,4], param3 AnotherEntity {}){
-            var1 &quot;Var1&quot;
-        } 
-        var6 (true) {
-            &quot;Var1&quot;
-        },
-        var7 [
-            (&quot;Param1&quot;, [1, 2], param3 AnotherEntity {}),
-            (&quot;Param1&quot;, [5, 6], param3 AnotherEntity {})
-        ]
     }
 }
 
-</code></pre>
+</code></pre><h2 id="implementations">Implementations</h2>
+<p>An implementation is a special features that help design the structure of a program. It is possible to get multiple implementations inside an entity of the same model.<br />
+The power is that you can easily choose the implementation you want to use to operate different behaviours.</p>
+<pre><code class="language-tlang" data-lang="tlang">model {
+    set MyModel(attr1: String, attr2: Long){
+        attrX: impl,
+        attrY: impl[]
+    }
+}
+</code></pre><p>This an example of an entity using the model MyModel and implementing it:</p>
+<pre><code class="language-tlang" data-lang="tlang">model {
+    let myEntity: MyModel = {
+        attrX = impl {
+            attr1 = &quot;I wear my sunglasses at night&quot;,
+            attr2 = 1984
+        }
+        attrY = [
+            impl {
+                attr1 = &quot;If there's somethin' strange in your neighborhood, who ya gonna call?&quot;,
+                attr2 = 1984
+            },
+            impl {
+                attr1 = &quot;I always feel like somebody's watching me&quot;,
+                attr2 = 1984
+            }
+        ]
+    }
+}
+</code></pre><h2 id="extensions">Extensions</h2>
+<p>Extensions expand the capabilities of a model with another offering the leverage to separate a program in smaller and cleaner units.</p>
+<pre><code class="language-tlang" data-lang="tlang">model {
+    set MyTopModel{
+        attr1: String,
+        attr2: Long
+    }
 
+    
+    set MyModel ext MyTopModel{
+        attr3: String,
+        attr4: Long
+    }
+}
+</code></pre><p>An example of an entity using MyModel:</p>
+<pre><code class="language-tlang" data-lang="tlang">model {
+    let myEntity: MyModel = {
+        attr1 = &quot;Attr1 value&quot;,
+        attr2 = 1337,
+        attr3 = &quot;Attr3 value&quot;,
+        attr4 = 42
+    }
+}
+</code></pre><h2 id="references">References</h2>
+<p>A reference can point to a variable or a function and can use the value or the result of that function as a parameter to another function or expose them.</p>
+<pre><code class="language-tlang" data-lang="tlang">model {
+
+    let aVariable = &quot;The value of my variable&quot;
+
+    set MyModel {
+        attr3: &amp;aVariable
+    }
+}
+</code></pre>
   </article>
 </div>
       
@@ -2346,7 +2382,7 @@ There are five types of variables:
       <div class="lmr">
         
           <p class="caption">
-            &copy;2021, All Rights Reserved
+            ©2021, All Rights Reserved
           </p>
           
         

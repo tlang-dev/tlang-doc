@@ -9,17 +9,17 @@
 
 
   
-  <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
+  <script defer src="/js/fuse.min.c4bee9a8d44273d6154fe86006923d4131eb2e8069d8897687137c6f37f553e3.js"></script>
 
 
 
-<script src="/js/enquire.min.dfb99dee1e029d51d6cfb672d847929890b1585402de17f5ed092edd72a688b4.js"></script>
+<script src="/js/enquire.min.aa37bdcb743826eecdae5c5d177fc7d6552340f1b4378ffaa9c82b2c6111400b.js"></script>
 
-<script defer src="/js/lazysizes.min.31dd6a2d3a1ec0f78a8df007535cf23f03aeb5c70f026e6d6a19dac3b3acc340.js"></script>
+<script defer src="/js/lazysizes.min.5e11d056075a05065b9c0bfec44084a113fc2976c2952ec804dedb61c7662db9.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js"></script>
+<script defer src="/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
 
 <script>
   "use strict";
@@ -1084,7 +1084,7 @@
 <meta property="og:url" content="https://tlang.dev/docs/specs/template/">
 <meta property="og:type" content="website">
 
-<meta name="generator" content="Hugo 0.59.0" />
+<meta name="generator" content="Hugo 0.83.1" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://tlang.dev/docs/specs/template/">
@@ -1917,43 +1917,29 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    
-
-<p>The template section is a bit special because it is not interpreted the same way as the other sections. As long as it is grammatically correct it&rsquo;s fine, even if it doesn&rsquo;t make any sense.
+    <p>The template section is a bit special because it is not interpreted the same way as the other sections. As long as it is grammatically correct it&rsquo;s fine, even if it doesn&rsquo;t make any sense.<br />
 A template is simply taken and transformed into another language without interpreting or attempting to make any sense if the destination language. The generated code might not compile.</p>
-
 <p>If you create your own template you need to know the destination language to make compilable and executable code. If you reuse someone else&rsquo;s template you don&rsquo;t have too if the template is well documented.</p>
-
-<h2 id="imports-uses-requires">Imports, uses, requires, &hellip;</h2>
-
-<pre><code class="language-tlang">tmpl[java] myTemplate() {
+<h2 id="imports-uses-requires-">Imports, uses, requires, &hellip;</h2>
+<pre><code class="language-tlang" data-lang="tlang">tmpl[java] myTemplate() {
 use java.util.Date 
 }
-</code></pre>
-
-<h2 id="variables">Variables</h2>
-
-<pre><code class="language-tlang">tmpl[java] myTemplate() {
+</code></pre><h2 id="variables">Variables</h2>
+<pre><code class="language-tlang" data-lang="tlang">tmpl[java] myTemplate() {
     var myVar:String = &quot;The value&quot;
 
     var[public static final] MY_CONST = &quot;The constant value&quot;
 }
-</code></pre>
-
-<h2 id="classes-traits-interfaces">Classes, traits, interfaces, &hellip;</h2>
-
-<pre><code class="language-tlang">tmpl[java] myTemplate() {
+</code></pre><h2 id="classes-traits-interfaces-">Classes, traits, interfaces, &hellip;</h2>
+<pre><code class="language-tlang" data-lang="tlang">tmpl[java] myTemplate() {
     impl[public interface] myInterface {
     }
 
     impl[public class] myClass for myInterface {
     }
 }
-</code></pre>
-
-<h2 id="functions-and-methods">Functions and methods</h2>
-
-<pre><code class="language-tlang">tmpl[java] myTemplate() {
+</code></pre><h2 id="functions-and-methods">Functions and methods</h2>
+<pre><code class="language-tlang" data-lang="tlang">tmpl[java] myTemplate() {
     impl[public interface] myInterface {
         func myFunc(param1: String, param2: Int)
     }
@@ -1964,10 +1950,7 @@ use java.util.Date
         }
     }
 }
-</code></pre>
-
-<h2 id="conditions">Conditions</h2>
-
+</code></pre><h2 id="conditions">Conditions</h2>
 <h2 id="loops">Loops</h2>
 
   </article>
@@ -2301,7 +2284,7 @@ use java.util.Date
       <div class="lmr">
         
           <p class="caption">
-            &copy;2021, All Rights Reserved
+            ©2021, All Rights Reserved
           </p>
           
         
