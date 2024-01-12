@@ -15,6 +15,25 @@
     
       
       <item>
+        <title>Mutable</title>
+        <link>https://tlang.dev/docs/libraries/internal/std/mutable/</link>
+        <pubDate>Thu, 11 Jan 2024 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/libraries/internal/std/mutable/</guid>
+        <description>By default TLang is immutable, the following tools allow mutability:
+mutable map mutable list mutable variable </description>
+      </item>
+      
+      <item>
+        <title>Overview</title>
+        <link>https://tlang.dev/docs/libraries/overview/</link>
+        <pubDate>Thu, 11 Jan 2024 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/libraries/overview/</guid>
+        <description></description>
+      </item>
+      
+      <item>
         <title>Overview</title>
         <link>https://tlang.dev/docs/specs/overview/</link>
         <pubDate>Tue, 28 Jan 2020 00:36:39 +0900</pubDate>
@@ -53,7 +72,7 @@ Unix On unix systems add a path to your PATH variable in your shell config file.
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
         <guid>https://tlang.dev/docs/libraries/internal/io/file/</guid>
-        <description></description>
+        <description>Interact with the file system to manage files</description>
       </item>
       
       <item>
@@ -71,7 +90,7 @@ Unix On unix systems add a path to your PATH variable in your shell config file.
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
         <guid>https://tlang.dev/docs/libraries/internal/io/terminal/</guid>
-        <description></description>
+        <description>Interact with the terminal to read or print data.</description>
       </item>
       
       <item>
@@ -83,6 +102,28 @@ Unix On unix systems add a path to your PATH variable in your shell config file.
         <description>The template section is a bit special because it is not interpreted the same way as the other sections. As long as it is grammatically correct it&amp;rsquo;s fine, even if it doesn&amp;rsquo;t make any sense.
 A template is simply taken and transformed into another language without interpreting or attempting to make any sense if the destination language. The generated code might not compile.
 If you create your own template you need to know the destination language to make compilable and executable code.</description>
+      </item>
+      
+      <item>
+        <title>Manifest</title>
+        <link>https://tlang.dev/docs/architecture/manifest/</link>
+        <pubDate>Thu, 11 Jan 2024 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/architecture/manifest/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>StrBuilder</title>
+        <link>https://tlang.dev/docs/libraries/internal/std/strbuilder/</link>
+        <pubDate>Thu, 11 Jan 2024 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/libraries/internal/std/strbuilder/</guid>
+        <description>String builder to easily concatenate strings.
+add Add string content to the builder
+toString Get the the repesentation of the StrBuilder as string
+ln Add a new line
+lrn Add a new line with return</description>
       </item>
       
       <item>
@@ -107,6 +148,33 @@ use io.Terminal use gen.Generator helper { func main() { Terminal.println(Genera
       </item>
       
       <item>
+        <title>Http</title>
+        <link>https://tlang.dev/docs/libraries/internal/io/http/</link>
+        <pubDate>Thu, 11 Jan 2024 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/libraries/internal/io/http/</guid>
+        <description>The http library includes an http client and a simple http server.</description>
+      </item>
+      
+      <item>
+        <title>SSH</title>
+        <link>https://tlang.dev/docs/libraries/internal/io/ssh/</link>
+        <pubDate>Thu, 11 Jan 2024 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/libraries/internal/io/ssh/</guid>
+        <description>Simple SSH Client.</description>
+      </item>
+      
+      <item>
+        <title>String</title>
+        <link>https://tlang.dev/docs/libraries/internal/std/string/</link>
+        <pubDate>Thu, 11 Jan 2024 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/libraries/internal/std/string/</guid>
+        <description>Usefull functions to modify and manage chains of chars.</description>
+      </item>
+      
+      <item>
         <title>Many templates</title>
         <link>https://tlang.dev/features/many-templates/</link>
         <pubDate>Tue, 28 Jan 2020 00:08:29 +0900</pubDate>
@@ -122,6 +190,15 @@ use io.Terminal use gen.Generator helper { func main() { Terminal.println(Genera
         
         <guid>https://tlang.dev/features/ide-support/</guid>
         <description>IDE support</description>
+      </item>
+      
+      <item>
+        <title>Market</title>
+        <link>https://tlang.dev/docs/libraries/market/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/libraries/market/</guid>
+        <description></description>
       </item>
       
     

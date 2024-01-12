@@ -3,7 +3,7 @@ title: "Package"
 description: "Package section"
 date: 2020-01-11T14:09:21+09:00
 draft: false
-weight: 5
+weight: 1
 ---
 
 A package is represented by a folder in the file system. It has access to only one level, meaning the folder inside the current folder. Of course you get access to all files in the same folder.

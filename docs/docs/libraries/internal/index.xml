@@ -15,6 +15,16 @@
     
       
       <item>
+        <title>STD</title>
+        <link>https://tlang.dev/docs/libraries/internal/std/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/libraries/internal/std/</guid>
+        <description>The STD or Standard libraray offers the most common and useful tools to enhance the language.
+The STD library contains the following components:</description>
+      </item>
+      
+      <item>
         <title>Generator</title>
         <link>https://tlang.dev/docs/libraries/internal/generator/</link>
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
@@ -29,7 +39,7 @@
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
         <guid>https://tlang.dev/docs/libraries/internal/io/</guid>
-        <description></description>
+        <description>The Input and Outpute library offers ways to interact with other systems such as files or remote entities.</description>
       </item>
       
     

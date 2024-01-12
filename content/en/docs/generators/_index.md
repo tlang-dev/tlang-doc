@@ -3,7 +3,7 @@ title: "Generators"
 description: "Overview of the available generators"
 date: 2024-01-11T00:34:39+09:00
 draft: false
-weight: 3
+weight: 4
 ---
 
 ## How to use

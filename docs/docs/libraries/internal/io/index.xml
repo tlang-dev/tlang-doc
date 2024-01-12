@@ -20,7 +20,7 @@
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
         <guid>https://tlang.dev/docs/libraries/internal/io/file/</guid>
-        <description></description>
+        <description>Interact with the file system to manage files</description>
       </item>
       
       <item>
@@ -29,7 +29,25 @@
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
         <guid>https://tlang.dev/docs/libraries/internal/io/terminal/</guid>
-        <description></description>
+        <description>Interact with the terminal to read or print data.</description>
+      </item>
+      
+      <item>
+        <title>Http</title>
+        <link>https://tlang.dev/docs/libraries/internal/io/http/</link>
+        <pubDate>Thu, 11 Jan 2024 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/libraries/internal/io/http/</guid>
+        <description>The http library includes an http client and a simple http server.</description>
+      </item>
+      
+      <item>
+        <title>SSH</title>
+        <link>https://tlang.dev/docs/libraries/internal/io/ssh/</link>
+        <pubDate>Thu, 11 Jan 2024 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/libraries/internal/io/ssh/</guid>
+        <description>Simple SSH Client.</description>
       </item>
       
     

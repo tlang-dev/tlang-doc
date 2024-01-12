@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tlang.dev/docs/libraries/internal/std/mutable/</loc>
+    <lastmod>2024-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/docs/libraries/overview/</loc>
+    <lastmod>2024-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tlang.dev/docs/specs/overview/</loc>
     <lastmod>2020-01-28T00:36:39+09:00</lastmod>
   </url>
@@ -28,22 +38,17 @@
   </url>
   
   <url>
-    <loc>https://tlang.dev/docs/libraries/internal/generator/</loc>
-    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tlang.dev/docs/libraries/internal/generator/generator/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.dev/docs/libraries/internal/</loc>
+    <loc>https://tlang.dev/docs/architecture/package/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.dev/docs/libraries/internal/io/</loc>
+    <loc>https://tlang.dev/docs/libraries/internal/std/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
   </url>
   
@@ -54,6 +59,16 @@
   
   <url>
     <loc>https://tlang.dev/docs/specs/template/introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/docs/architecture/manifest/</loc>
+    <lastmod>2024-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/docs/libraries/internal/std/strbuilder/</loc>
+    <lastmod>2024-01-11T14:09:21+09:00</lastmod>
   </url>
   
   <url>
@@ -77,13 +92,33 @@
   </url>
   
   <url>
+    <loc>https://tlang.dev/docs/libraries/internal/generator/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/docs/libraries/internal/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tlang.dev/docs/specs/model/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.dev/docs/libraries/tbags/</loc>
-    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+    <loc>https://tlang.dev/docs/libraries/internal/io/http/</loc>
+    <lastmod>2024-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/docs/libraries/internal/io/ssh/</loc>
+    <lastmod>2024-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/docs/libraries/internal/std/string/</loc>
+    <lastmod>2024-01-11T14:09:21+09:00</lastmod>
   </url>
   
   <url>
@@ -92,7 +127,7 @@
   </url>
   
   <url>
-    <loc>https://tlang.dev/docs/generators/</loc>
+    <loc>https://tlang.dev/docs/architecture/</loc>
     <lastmod>2024-01-11T00:34:39+09:00</lastmod>
   </url>
   
@@ -107,18 +142,33 @@
   </url>
   
   <url>
+    <loc>https://tlang.dev/docs/libraries/internal/io/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/docs/architecture/tbags/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tlang.dev/docs/specs/template/doc/</loc>
     <lastmod>2024-01-11T00:36:39+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tlang.dev/docs/libraries/</loc>
-    <lastmod>2020-01-28T00:36:39+09:00</lastmod>
+    <loc>https://tlang.dev/docs/generators/</loc>
+    <lastmod>2024-01-11T00:34:39+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://tlang.dev/features/ide-support/</loc>
     <lastmod>2020-01-28T00:08:29+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/docs/libraries/market/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
   </url>
   
   <url>
@@ -137,8 +187,8 @@
   </url>
   
   <url>
-    <loc>https://tlang.dev/docs/specs/package/</loc>
-    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+    <loc>https://tlang.dev/docs/libraries/</loc>
+    <lastmod>2020-01-28T00:36:39+09:00</lastmod>
   </url>
   
   <url>

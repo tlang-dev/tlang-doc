@@ -56,16 +56,6 @@ param1 of type String param2 of type Int param3, an array of entities &amp;ldquo
         <description></description>
       </item>
       
-      <item>
-        <title>Package</title>
-        <link>https://tlang.dev/docs/specs/package/</link>
-        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
-        
-        <guid>https://tlang.dev/docs/specs/package/</guid>
-        <description>A package is represented by a folder in the file system. It has access to only one level, meaning the folder inside the current folder. Of course you get access to all files in the same folder.
-One level MyCurrentFolder |- File1.tlang |- File2.tlang |- FirstFolderInside | |- File11.tlang | |- File12.tlang |- SecondFolderInside |- File21.tlang |- File22.tlang Based on the above hierarchy, assuming that your are working in File1.tlang and want to access functions in File2.</description>
-      </item>
-      
     
   </channel>
 </rss>

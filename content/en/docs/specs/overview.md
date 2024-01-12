@@ -30,7 +30,7 @@ helper {
 
 }
 
-tmpl[java] {
+tmpl[java] myTemplate() lang {
 
 }
 

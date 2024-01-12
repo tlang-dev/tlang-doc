@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>STD on TLang</title>
+    <link>https://tlang.dev/docs/libraries/internal/std/</link>
+    <description>Recent content in STD on TLang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="https://tlang.dev/docs/libraries/internal/std/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Mutable</title>
+        <link>https://tlang.dev/docs/libraries/internal/std/mutable/</link>
+        <pubDate>Thu, 11 Jan 2024 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/libraries/internal/std/mutable/</guid>
+        <description>By default TLang is immutable, the following tools allow mutability:
+mutable map mutable list mutable variable </description>
+      </item>
+      
+      <item>
+        <title>StrBuilder</title>
+        <link>https://tlang.dev/docs/libraries/internal/std/strbuilder/</link>
+        <pubDate>Thu, 11 Jan 2024 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/libraries/internal/std/strbuilder/</guid>
+        <description>String builder to easily concatenate strings.
+add Add string content to the builder
+toString Get the the repesentation of the StrBuilder as string
+ln Add a new line
+lrn Add a new line with return</description>
+      </item>
+      
+      <item>
+        <title>String</title>
+        <link>https://tlang.dev/docs/libraries/internal/std/string/</link>
+        <pubDate>Thu, 11 Jan 2024 14:09:21 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/libraries/internal/std/string/</guid>
+        <description>Usefull functions to modify and manage chains of chars.</description>
+      </item>
+      
+    
+  </channel>
+</rss>
