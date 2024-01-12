@@ -37,6 +37,20 @@ Currying let you define multiple sets of parameters which are very helpful to si
 
 Inside the function, you will use the parameters as if there was just one set of parameters which means than they all require a unique name.
 
+### Return
+
+To return a value, the type needs to be declared with :[TYPE] after the function parameters. Then the value of the last instruction of the function will be returned. There is no "return" keyword.
+
+The following example will return a Double with the result of the last instruction which is 42.42.
+
+```tlang
+helper {
+    func myFunc(param1 String, param2 Int): Double {
+        5.12 + 37.30
+    }
+}
+```
+
 ## Variables
 
 ```tlang

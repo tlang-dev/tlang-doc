@@ -3,7 +3,7 @@ logoText = "TLang"
 logoType = "short" # long, short
 description = "The template language."
 
-themeOptions = ["light", "dark"]
+themeOptions = ["dark", "light"]
 
 useFaviconGenerator = true # https://www.favicon-generator.org/
 
@@ -27,7 +27,7 @@ paginateWindow = 1
 taxoPaginate = 13
 taxoGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 
-github = "https://github.com/sorne-io/io.sorne.tlang"
+github = "https://github.com/tlang-dev/tlang"
 
 # comment
 enableComment = false

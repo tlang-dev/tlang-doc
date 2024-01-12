@@ -22,7 +22,7 @@
         <guid>https://tlang.dev/docs/specs/overview/</guid>
         <description>The TLang code is written in .tlang files. They are composed of different parts that are not mandatory. The first part is the context of the file, mainly the packages that are imported or exposed. More will be said latter.
 Then in the sections of the file are described. There are three types:
- model, it represents the objects and the structure of your program helper, it contains the logic. Everything that will be executed is written in this section template, it defines the templates that will be used to generate the final code  You don&amp;rsquo;t need to use all of them in every file.</description>
+model, it represents the objects and the structure of your program helper, it contains the logic. Everything that will be executed is written in this section template, it defines the templates that will be used to generate the final code You don&amp;rsquo;t need to use all of them in every file.</description>
       </item>
       
       <item>
@@ -34,7 +34,7 @@ Then in the sections of the file are described. There are three types:
         <description>Make sure that you have java version 11 or above installed.
 Download the latest version of TLang https://github.com/tlang-dev/tlang/releases
 Then run the jar:
-1  java -jar tlang.jar version   Set env We advise you to set an environment variable to run the jar. in the next chapters we will use the command tlang instead of java -jar tlang.jar
+1 java -jar tlang.jar version Set env We advise you to set an environment variable to run the jar. in the next chapters we will use the command tlang instead of java -jar tlang.jar
 Unix On unix systems add a path to your PATH variable in your shell config file.</description>
       </item>
       
@@ -75,16 +75,26 @@ Unix On unix systems add a path to your PATH variable in your shell config file.
       </item>
       
       <item>
+        <title>Template introduction</title>
+        <link>https://tlang.dev/docs/specs/template/introduction/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://tlang.dev/docs/specs/template/introduction/</guid>
+        <description>The template section is a bit special because it is not interpreted the same way as the other sections. As long as it is grammatically correct it&amp;rsquo;s fine, even if it doesn&amp;rsquo;t make any sense.
+A template is simply taken and transformed into another language without interpreting or attempting to make any sense if the destination language. The generated code might not compile.
+If you create your own template you need to know the destination language to make compilable and executable code.</description>
+      </item>
+      
+      <item>
         <title>Hello world !</title>
         <link>https://tlang.dev/docs/gettingstarted/helloworld/</link>
         <pubDate>Tue, 28 Jan 2020 00:34:41 +0900</pubDate>
         
         <guid>https://tlang.dev/docs/gettingstarted/helloworld/</guid>
         <description>Classic &amp;ldquo;Hello, World&amp;rdquo; Main.tlang:
-use io.Terminalhelper {func main() {Terminal.println(&amp;quot;Hello, World !&amp;quot;)}}manifest.yaml
-1 2 3 4 5 6 7 8  name:HelloWorldproject:IntegrationTestsorganisation:TLangversion:1.0.0stability:alphareleaseNumber:1dependencies:- TLang/IO/Terminal 1.0.0:alpha:1 io  Generate &amp;ldquo;Hello, World&amp;rdquo; in Scala Main.tlang:
-use io.Terminaluse gen.Generatorhelper {func main() {Terminal.println(Generator.generate(helloWorld()))}}tmpl[scala] helloWorld {pkg hello_worldimpl HelloWorld {func main(args: String[]) {println(&amp;quot;Hello, World!&amp;quot;)}}}manifest.yaml
-1 2 3 4 5 6 7 8 9  name:HelloWorldInScalaproject:IntegrationTestsorganisation:TLangversion:1.</description>
+use io.Terminal helper { func main() { Terminal.println(&amp;#34;Hello, World !&amp;#34;) } } manifest.yaml
+1 2 3 4 5 6 7 8 name: HelloWorld project: IntegrationTests organisation: TLang version: 1.0.0 stability: alpha releaseNumber: 1 dependencies: - TLang/IO/Terminal 1.0.0:alpha:1 io Generate &amp;ldquo;Hello, World&amp;rdquo; in Scala Main.tlang:
+use io.Terminal use gen.Generator helper { func main() { Terminal.println(Generator.generate(helloWorld())) } } tmpl[scala] helloWorld { pkg hello_world impl HelloWorld { func main(args: String[]) { println(&amp;#34;Hello, World!</description>
       </item>
       
       <item>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cmd template on TLang</title>
+    <link>https://tlang.dev/docs/specs/template/cmd/</link>
+    <description>Recent content in Cmd template on TLang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 11 Jan 2024 00:36:39 +0900</lastBuildDate>
+    
+        <atom:link href="https://tlang.dev/docs/specs/template/cmd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+    
+  </channel>
+</rss>

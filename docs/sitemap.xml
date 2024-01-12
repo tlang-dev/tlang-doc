@@ -53,6 +53,15 @@
   </url>
   
   <url>
+    <loc>https://tlang.dev/docs/specs/template/introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/docs/specs/template/lang/</loc>
+    <lastmod>2024-01-11T00:36:39+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tlang.dev/docs/specs/</loc>
     <lastmod>2020-01-28T00:36:39+09:00</lastmod>
   </url>
@@ -78,8 +87,13 @@
   </url>
   
   <url>
-    <loc>https://tlang.dev/docs/libraries/</loc>
-    <lastmod>2020-01-28T00:36:39+09:00</lastmod>
+    <loc>https://tlang.dev/docs/specs/template/data/</loc>
+    <lastmod>2024-01-11T00:36:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/docs/generators/</loc>
+    <lastmod>2024-01-11T00:34:39+09:00</lastmod>
   </url>
   
   <url>
@@ -93,6 +107,16 @@
   </url>
   
   <url>
+    <loc>https://tlang.dev/docs/specs/template/doc/</loc>
+    <lastmod>2024-01-11T00:36:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/docs/libraries/</loc>
+    <lastmod>2020-01-28T00:36:39+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tlang.dev/features/ide-support/</loc>
     <lastmod>2020-01-28T00:08:29+09:00</lastmod>
   </url>
@@ -100,6 +124,16 @@
   <url>
     <loc>https://tlang.dev/docs/specs/template/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/docs/specs/template/cmd/</loc>
+    <lastmod>2024-01-11T00:36:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/docs/specs/template/style/</loc>
+    <lastmod>2024-01-11T00:36:39+09:00</lastmod>
   </url>
   
   <url>

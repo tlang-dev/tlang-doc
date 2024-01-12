@@ -23,7 +23,7 @@
         <description>Make sure that you have java version 11 or above installed.
 Download the latest version of TLang https://github.com/tlang-dev/tlang/releases
 Then run the jar:
-1  java -jar tlang.jar version   Set env We advise you to set an environment variable to run the jar. in the next chapters we will use the command tlang instead of java -jar tlang.jar
+1 java -jar tlang.jar version Set env We advise you to set an environment variable to run the jar. in the next chapters we will use the command tlang instead of java -jar tlang.jar
 Unix On unix systems add a path to your PATH variable in your shell config file.</description>
       </item>
       
@@ -34,10 +34,9 @@ Unix On unix systems add a path to your PATH variable in your shell config file.
         
         <guid>https://tlang.dev/docs/gettingstarted/helloworld/</guid>
         <description>Classic &amp;ldquo;Hello, World&amp;rdquo; Main.tlang:
-use io.Terminalhelper {func main() {Terminal.println(&amp;quot;Hello, World !&amp;quot;)}}manifest.yaml
-1 2 3 4 5 6 7 8  name:HelloWorldproject:IntegrationTestsorganisation:TLangversion:1.0.0stability:alphareleaseNumber:1dependencies:- TLang/IO/Terminal 1.0.0:alpha:1 io  Generate &amp;ldquo;Hello, World&amp;rdquo; in Scala Main.tlang:
-use io.Terminaluse gen.Generatorhelper {func main() {Terminal.println(Generator.generate(helloWorld()))}}tmpl[scala] helloWorld {pkg hello_worldimpl HelloWorld {func main(args: String[]) {println(&amp;quot;Hello, World!&amp;quot;)}}}manifest.yaml
-1 2 3 4 5 6 7 8 9  name:HelloWorldInScalaproject:IntegrationTestsorganisation:TLangversion:1.</description>
+use io.Terminal helper { func main() { Terminal.println(&amp;#34;Hello, World !&amp;#34;) } } manifest.yaml
+1 2 3 4 5 6 7 8 name: HelloWorld project: IntegrationTests organisation: TLang version: 1.0.0 stability: alpha releaseNumber: 1 dependencies: - TLang/IO/Terminal 1.0.0:alpha:1 io Generate &amp;ldquo;Hello, World&amp;rdquo; in Scala Main.tlang:
+use io.Terminal use gen.Generator helper { func main() { Terminal.println(Generator.generate(helloWorld())) } } tmpl[scala] helloWorld { pkg hello_world impl HelloWorld { func main(args: String[]) { println(&amp;#34;Hello, World!</description>
       </item>
       
     

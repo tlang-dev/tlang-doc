@@ -33,6 +33,17 @@
       </item>
       
       <item>
+        <title>Generators</title>
+        <link>https://tlang.dev/docs/generators/</link>
+        <pubDate>Thu, 11 Jan 2024 00:34:39 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/generators/</guid>
+        <description>How to use Dependency in manifest First you need to declare them in your manifest.
+For instance, if you would like to use the Kotlin generator, declare it as follow in the &amp;ldquo;dependencies&amp;rdquo; section:
+1 2 3 4 5 6 7 8 name: HelloWorld project: MyFirstProject organisation: MyOrg version: 1.0.0 stability: alpha releaseNumber: 1 dependencies: - TLang/Generator/Kotlin 1.0.0:alpha:1 kotlin Use in template In a tlang file, you need to import it with the &amp;ldquo;use&amp;rdquo; keyworkd and define a lang template as Kotlin code in the braquets after the &amp;ldquo;tmpl&amp;rdquo; keyword.</description>
+      </item>
+      
+      <item>
         <title>Libraries</title>
         <link>https://tlang.dev/docs/libraries/</link>
         <pubDate>Tue, 28 Jan 2020 00:36:39 +0900</pubDate>

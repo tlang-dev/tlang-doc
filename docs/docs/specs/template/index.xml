@@ -14,6 +14,64 @@
     
     
       
+      <item>
+        <title>Template introduction</title>
+        <link>https://tlang.dev/docs/specs/template/introduction/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://tlang.dev/docs/specs/template/introduction/</guid>
+        <description>The template section is a bit special because it is not interpreted the same way as the other sections. As long as it is grammatically correct it&amp;rsquo;s fine, even if it doesn&amp;rsquo;t make any sense.
+A template is simply taken and transformed into another language without interpreting or attempting to make any sense if the destination language. The generated code might not compile.
+If you create your own template you need to know the destination language to make compilable and executable code.</description>
+      </item>
+      
+      <item>
+        <title>Lang template</title>
+        <link>https://tlang.dev/docs/specs/template/lang/</link>
+        <pubDate>Thu, 11 Jan 2024 00:36:39 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/specs/template/lang/</guid>
+        <description>Imports, uses, requires, &amp;hellip; tmpl[java] myTemplate() lang { use java.util.Date } Variables tmpl[java] myTemplate() lang { var myVar:String = &amp;#34;The value&amp;#34; var[public static final] MY_CONST = &amp;#34;The constant value&amp;#34; } Classes, traits, interfaces, &amp;hellip; tmpl[java] myTemplate() lang { impl[public interface] myInterface { } impl[public class] myClass for myInterface { } } Functions and methods tmpl[java] myTemplate() lang { impl[public interface] myInterface { func myFunc(param1: String, param2: Int) } impl[public class] myClass { func myFunc(param1: String[], param2: String):Int { return 42 } } } Conditions Loops </description>
+      </item>
+      
+      <item>
+        <title>Data template</title>
+        <link>https://tlang.dev/docs/specs/template/data/</link>
+        <pubDate>Thu, 11 Jan 2024 00:36:39 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/specs/template/data/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Doc template</title>
+        <link>https://tlang.dev/docs/specs/template/doc/</link>
+        <pubDate>Thu, 11 Jan 2024 00:36:39 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/specs/template/doc/</guid>
+        <description>Doc represents the structure of a document. It can be generated into HTML doc, Markdown or other formats.
+Title Use &amp;lsquo;#&amp;rsquo; to set the following sequence as a title of level one. The following examples shows how to define titles for any levels:
+tmpl[HtmlDoc] myTemplate() doc { # Title level 1 ## Title level 2 ### Title level 3 #(4) Title level 4 #(5) Title level 5 } Plain text tmpl[HtmlDoc] myTemplate() doc { Plain text can ben added just this way.</description>
+      </item>
+      
+      <item>
+        <title>Cmd template</title>
+        <link>https://tlang.dev/docs/specs/template/cmd/</link>
+        <pubDate>Thu, 11 Jan 2024 00:36:39 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/specs/template/cmd/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Style template</title>
+        <link>https://tlang.dev/docs/specs/template/style/</link>
+        <pubDate>Thu, 11 Jan 2024 00:36:39 +0900</pubDate>
+        
+        <guid>https://tlang.dev/docs/specs/template/style/</guid>
+        <description></description>
+      </item>
+      
     
   </channel>
 </rss>

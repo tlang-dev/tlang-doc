@@ -29,15 +29,15 @@ footer:
     - title: General
       links:
         - title: Docs
-          link: https://tlang.sorne.io/docs
+          link: https://tlang.dev/docs/
         - title: Blog
-          link: https://tlang.sorne.io/blog
+          link: https://tlang.dev/blog/
     - title: resources
       links:
         - title: GitHub
-          link: https://github.com/sorne-io/io.sorne.tlang
+          link: https://github.com/tlang-dev/tlang
         - title: Releases
-          link: https://github.com/sorne-io/io.sorne.tlang/releases
+          link: https://github.com/tlang-dev/tlang/releases
     - title: Features
       links:
         - title: Multi-languages
@@ -53,7 +53,7 @@ footer:
     applySinglePageCss: false
     markdown:
       |
-      ## TLang / sorne.io
+      ## TLang
       Copyright © 2020. All rights reserved.
 
 sections:
