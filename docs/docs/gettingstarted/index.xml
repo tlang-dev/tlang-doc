@@ -36,7 +36,7 @@ Unix On unix systems add a path to your PATH variable in your shell config file.
         <description>Classic &amp;ldquo;Hello, World&amp;rdquo; Main.tlang:
 use io.Terminal helper { func main() { Terminal.println(&amp;#34;Hello, World !&amp;#34;) } } manifest.yaml
 1 2 3 4 5 6 7 8 name: HelloWorld project: IntegrationTests organisation: TLang version: 1.0.0 stability: alpha releaseNumber: 1 dependencies: - TLang/IO/Terminal 1.0.0:alpha:1 io Generate &amp;ldquo;Hello, World&amp;rdquo; in Scala Main.tlang:
-use io.Terminal use gen.Generator helper { func main() { Terminal.println(Generator.generate(helloWorld())) } } tmpl[scala] helloWorld { pkg hello_world impl HelloWorld { func main(args: String[]) { println(&amp;#34;Hello, World!</description>
+use io.Terminal use gen.Generator helper { func main() { Terminal.println(Generator.generate(helloWorld())) } } lang[scala] helloWorld() { pkg hello_world impl HelloWorld { func main(args: String[]) { println(&amp;#34;Hello, World!</description>
       </item>
       
     

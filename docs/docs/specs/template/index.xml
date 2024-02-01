@@ -31,7 +31,7 @@ If you create your own template you need to know the destination language to mak
         <pubDate>Thu, 11 Jan 2024 00:36:39 +0900</pubDate>
         
         <guid>https://tlang.dev/docs/specs/template/lang/</guid>
-        <description>Imports, uses, requires, &amp;hellip; tmpl[java] myTemplate() lang { use java.util.Date } Variables tmpl[java] myTemplate() lang { var myVar:String = &amp;#34;The value&amp;#34; var[public static final] MY_CONST = &amp;#34;The constant value&amp;#34; } Classes, traits, interfaces, &amp;hellip; tmpl[java] myTemplate() lang { impl[public interface] myInterface { } impl[public class] myClass for myInterface { } } Functions and methods tmpl[java] myTemplate() lang { impl[public interface] myInterface { func myFunc(param1: String, param2: Int) } impl[public class] myClass { func myFunc(param1: String[], param2: String):Int { return 42 } } } Conditions Loops </description>
+        <description>Imports, uses, requires, &amp;hellip; lang [java] myTemplate() { use java.util.Date } Variables lang [java] myTemplate() { var myVar:String = &amp;#34;The value&amp;#34; var[public static final] MY_CONST = &amp;#34;The constant value&amp;#34; } Classes, traits, interfaces, &amp;hellip; lang [java] myTemplate() { impl[public interface] myInterface { } impl[public class] myClass for myInterface { } } Functions and methods lang [java] myTemplate() { impl[public interface] myInterface { func myFunc(param1: String, param2: Int) } impl[public class] myClass { func myFunc(param1: String[], param2: String):Int { return 42 } } } Conditions Loops </description>
       </item>
       
       <item>
@@ -51,7 +51,7 @@ If you create your own template you need to know the destination language to mak
         <guid>https://tlang.dev/docs/specs/template/doc/</guid>
         <description>Doc represents the structure of a document. It can be generated into HTML doc, Markdown or other formats.
 Title Use &amp;lsquo;#&amp;rsquo; to set the following sequence as a title of level one. The following examples shows how to define titles for any levels:
-tmpl[HtmlDoc] myTemplate() doc { # Title level 1 ## Title level 2 ### Title level 3 #(4) Title level 4 #(5) Title level 5 } Plain text tmpl[HtmlDoc] myTemplate() doc { Plain text can ben added just this way.</description>
+doc[HtmlDoc] myTemplate() { # Title level 1 ## Title level 2 ### Title level 3 #(4) Title level 4 #(5) Title level 5 } Plain text doc[HtmlDoc] myTemplate() { Plain text can ben added just this way.</description>
       </item>
       
       <item>
@@ -69,7 +69,8 @@ tmpl[HtmlDoc] myTemplate() doc { # Title level 1 ## Title level 2 ### Title leve
         <pubDate>Thu, 11 Jan 2024 00:36:39 +0900</pubDate>
         
         <guid>https://tlang.dev/docs/specs/template/style/</guid>
-        <description></description>
+        <description>A style template can be used to generate CSS, TLang formatters, or Charts with Dot Language.
+Style structure style [css] myTemplate() { p { font-family: verdana; font-size: 20px; } } Include style [css] myTemplate() { p { font-family: verdana; font-size: 20px; } &amp;lt;[anotherTemplate()]&amp;gt; } Data types </description>
       </item>
       
     

@@ -1084,7 +1084,7 @@
 <meta property="og:url" content="https://tlang.dev/docs/specs/template/style/">
 <meta property="og:type" content="website">
 
-<meta name="generator" content="Hugo 0.121.2">
+<meta name="generator" content="Hugo 0.122.0">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://tlang.dev/docs/specs/template/style/">
@@ -2320,7 +2320,29 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    
+    <p>A style template can be used to generate CSS, TLang formatters, or Charts with Dot Language.</p>
+<h2 id="style-structure">Style structure</h2>
+<pre tabindex="0"><code class="language-tlang" data-lang="tlang">style [css] myTemplate() {
+
+    p {
+        font-family: verdana;
+        font-size: 20px;
+    }
+
+}
+</code></pre><h2 id="include">Include</h2>
+<pre tabindex="0"><code class="language-tlang" data-lang="tlang">style [css] myTemplate() {
+
+    p {
+        font-family: verdana;
+        font-size: 20px;
+    }
+
+    &lt;[anotherTemplate()]&gt;
+
+}
+</code></pre><h2 id="data-types">Data types</h2>
+
   </article>
 </div>
       

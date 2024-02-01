@@ -192,6 +192,51 @@
   </url>
   
   <url>
+    <loc>https://tlang.dev/blog/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/tags/boilerplate-code/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/tags/business/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/tags/generative-ai/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/blog/meta-framework-with-tlang/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/tags/metaframework/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/tags/software-architecture/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/tags/templates/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tlang.dev/blog/tlang-versus-generative-ai/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tlang.dev/features/</loc>
     <lastmod>2020-01-28T00:08:29+09:00</lastmod>
   </url>
@@ -204,10 +249,6 @@
   <url>
     <loc>https://tlang.dev/docs/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tlang.dev/blog/</loc>
   </url>
   
 </urlset>

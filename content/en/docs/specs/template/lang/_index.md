@@ -11,7 +11,7 @@ weight: 2
 ## Imports, uses, requires, ...
 
 ```tlang
-tmpl[java] myTemplate() lang {
+lang [java] myTemplate() {
 use java.util.Date 
 }
 ```
@@ -19,7 +19,7 @@ use java.util.Date
 ## Variables
 
 ```tlang
-tmpl[java] myTemplate() lang {
+lang [java] myTemplate() {
     var myVar:String = "The value"
 
     var[public static final] MY_CONST = "The constant value"
@@ -29,7 +29,7 @@ tmpl[java] myTemplate() lang {
 ## Classes, traits, interfaces, ...
 
 ```tlang
-tmpl[java] myTemplate() lang {
+lang [java] myTemplate() {
     impl[public interface] myInterface {
     }
 
@@ -41,7 +41,7 @@ tmpl[java] myTemplate() lang {
 ## Functions and methods
 
 ```tlang
-tmpl[java] myTemplate() lang {
+lang [java] myTemplate() {
     impl[public interface] myInterface {
         func myFunc(param1: String, param2: Int)
     }

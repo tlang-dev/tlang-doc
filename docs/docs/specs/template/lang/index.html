@@ -1084,7 +1084,7 @@
 <meta property="og:url" content="https://tlang.dev/docs/specs/template/lang/">
 <meta property="og:type" content="website">
 
-<meta name="generator" content="Hugo 0.121.2">
+<meta name="generator" content="Hugo 0.122.0">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://tlang.dev/docs/specs/template/lang/">
@@ -2321,17 +2321,17 @@
 
   <article class="single__contents" data-dir="ltr">
     <h2 id="imports-uses-requires-">Imports, uses, requires, &hellip;</h2>
-<pre tabindex="0"><code class="language-tlang" data-lang="tlang">tmpl[java] myTemplate() lang {
+<pre tabindex="0"><code class="language-tlang" data-lang="tlang">lang [java] myTemplate() {
 use java.util.Date 
 }
 </code></pre><h2 id="variables">Variables</h2>
-<pre tabindex="0"><code class="language-tlang" data-lang="tlang">tmpl[java] myTemplate() lang {
+<pre tabindex="0"><code class="language-tlang" data-lang="tlang">lang [java] myTemplate() {
     var myVar:String = &#34;The value&#34;
 
     var[public static final] MY_CONST = &#34;The constant value&#34;
 }
 </code></pre><h2 id="classes-traits-interfaces-">Classes, traits, interfaces, &hellip;</h2>
-<pre tabindex="0"><code class="language-tlang" data-lang="tlang">tmpl[java] myTemplate() lang {
+<pre tabindex="0"><code class="language-tlang" data-lang="tlang">lang [java] myTemplate() {
     impl[public interface] myInterface {
     }
 
@@ -2339,7 +2339,7 @@ use java.util.Date
     }
 }
 </code></pre><h2 id="functions-and-methods">Functions and methods</h2>
-<pre tabindex="0"><code class="language-tlang" data-lang="tlang">tmpl[java] myTemplate() lang {
+<pre tabindex="0"><code class="language-tlang" data-lang="tlang">lang [java] myTemplate() {
     impl[public interface] myInterface {
         func myFunc(param1: String, param2: Int)
     }

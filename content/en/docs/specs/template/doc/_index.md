@@ -13,7 +13,7 @@ Doc represents the structure of a document. It can be generated into HTML doc, M
 Use '#' to set the following sequence as a title of level one. The following examples shows how to define titles for any levels:
 
 ```tlang
-tmpl[HtmlDoc] myTemplate() doc {
+doc[HtmlDoc] myTemplate() {
     # Title level 1
 
     ## Title level 2
@@ -28,7 +28,7 @@ tmpl[HtmlDoc] myTemplate() doc {
 
 ## Plain text
 ```tlang
-tmpl[HtmlDoc] myTemplate() doc {
+doc[HtmlDoc] myTemplate() {
     Plain text can ben added just this way.
     Compared to lang, data or cmd templates, there is no restriction to write anything.
 }
@@ -40,7 +40,7 @@ tmpl[HtmlDoc] myTemplate() doc {
 An unordered or a numbered list can be defined like this:
 
 ```tlang
-tmpl[HtmlDoc] myTemplate() doc {
+doc[HtmlDoc] myTemplate() {
     [list "bullet"
     * An element
     * Another element

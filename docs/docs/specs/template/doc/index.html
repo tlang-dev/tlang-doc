@@ -1084,7 +1084,7 @@
 <meta property="og:url" content="https://tlang.dev/docs/specs/template/doc/">
 <meta property="og:type" content="website">
 
-<meta name="generator" content="Hugo 0.121.2">
+<meta name="generator" content="Hugo 0.122.0">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://tlang.dev/docs/specs/template/doc/">
@@ -2323,7 +2323,7 @@
     <p>Doc represents the structure of a document. It can be generated into HTML doc, Markdown or other formats.</p>
 <h2 id="title">Title</h2>
 <p>Use &lsquo;#&rsquo; to set the following sequence as a title of level one. The following examples shows how to define titles for any levels:</p>
-<pre tabindex="0"><code class="language-tlang" data-lang="tlang">tmpl[HtmlDoc] myTemplate() doc {
+<pre tabindex="0"><code class="language-tlang" data-lang="tlang">doc[HtmlDoc] myTemplate() {
     # Title level 1
 
     ## Title level 2
@@ -2335,13 +2335,13 @@
     #(5) Title level 5
 }
 </code></pre><h2 id="plain-text">Plain text</h2>
-<pre tabindex="0"><code class="language-tlang" data-lang="tlang">tmpl[HtmlDoc] myTemplate() doc {
+<pre tabindex="0"><code class="language-tlang" data-lang="tlang">doc[HtmlDoc] myTemplate() {
     Plain text can ben added just this way.
     Compared to lang, data or cmd templates, there is no restriction to write anything.
 }
 </code></pre><h2 id="list">List</h2>
 <p>An unordered or a numbered list can be defined like this:</p>
-<pre tabindex="0"><code class="language-tlang" data-lang="tlang">tmpl[HtmlDoc] myTemplate() doc {
+<pre tabindex="0"><code class="language-tlang" data-lang="tlang">doc[HtmlDoc] myTemplate() {
     [list &#34;bullet&#34;
     * An element
     * Another element

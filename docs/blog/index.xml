@@ -7,11 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://tlang.dev/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>Meta framwork with TLang</title>
+        <link>https://tlang.dev/blog/meta-framework-with-tlang/</link>
+        <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://tlang.dev/blog/meta-framework-with-tlang/</guid>
+        <description>TLang is a small programming language that can help generate code in many programming languages such as Java, Kotlin, TypeScript, and Dart by creating code templates. It is useful to avoid boilerplate code, refactor and improve code, maintain code consistency, save time, and correct bugs.
+In this blog post, I will share how we used TLang to create our own opinionated component that serves as a meta framework for our business.</description>
+      </item>
+      
+      <item>
+        <title>TLang versus generatibe AI</title>
+        <link>https://tlang.dev/blog/tlang-versus-generative-ai/</link>
+        <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://tlang.dev/blog/tlang-versus-generative-ai/</guid>
+        <description>Introduction: In the ever-evolving world of programming, efficiency and innovation are key. As developers, we are constantly seeking tools that can streamline our work, improve code quality, and foster creativity. Two such tools that have emerged as game-changers are TLang and generative AI.
+What is TLang? TLang is a small programming language designed to generate code in various languages such as Java, Kotlin, TypeScript, and Dart. It allows developers to create code templates, which can be incredibly useful for a number of reasons.</description>
+      </item>
       
     
   </channel>

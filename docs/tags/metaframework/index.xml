@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metaframework on TLang</title>
+    <link>https://tlang.dev/tags/metaframework/</link>
+    <description>Recent content in Metaframework on TLang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://tlang.dev/tags/metaframework/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Meta framwork with TLang</title>
+        <link>https://tlang.dev/blog/meta-framework-with-tlang/</link>
+        <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://tlang.dev/blog/meta-framework-with-tlang/</guid>
+        <description>TLang is a small programming language that can help generate code in many programming languages such as Java, Kotlin, TypeScript, and Dart by creating code templates. It is useful to avoid boilerplate code, refactor and improve code, maintain code consistency, save time, and correct bugs.
+In this blog post, I will share how we used TLang to create our own opinionated component that serves as a meta framework for our business.</description>
+      </item>
+      
+    
+  </channel>
+</rss>

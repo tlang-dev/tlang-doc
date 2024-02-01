@@ -46,7 +46,7 @@ helper {
     }
 }
 
-tmpl[scala] helloWorld {
+lang[scala] helloWorld() {
     pkg hello_world
 
     impl HelloWorld {
